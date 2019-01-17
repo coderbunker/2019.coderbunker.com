@@ -160,7 +160,7 @@ footer.footer {
   min-width:10%;
 }
 .landing-title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: open-sans, sans-serif;
   font-weight: 300;
   font-style: italic;
   line-height: 30px;
