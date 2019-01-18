@@ -1,3 +1,16 @@
+@media only screen and (max-width: 992px) {
+    #bubbles-container {
+        display:none
+    }
+    #coderBunkerSentence {
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+        max-width: 100%;
+        margin-right: auto !important;
+        margin-left: auto !important;
+          text-align: center !important;
+    }
+}
 hr {
     display: block;
     height: 1px;
@@ -5,6 +18,9 @@ hr {
     border-top: 1px solid #434769;
     margin: 1em 0;
     padding: 0; 
+}
+h1 {
+    font-size:3rem;
 }
 h4 {
     font-size:1.2rem;
@@ -255,4 +271,40 @@ ul.navbar-nav .nav-item a:hover:after {
 }
 
 
-/* testing css for menu*/
+/* bubbles*/
+#bubbles-container {
+    position:relative;
+}
+#freelancer-bubble {
+    width: 8rem;
+    height: 8rem;
+    color: #003557;
+    background-color:#fff;
+    right:40%;
+
+}
+#entrepreneur-bubble {
+    width: 10rem;
+    height: 10rem;
+    color: #003557;
+    background-color:#fcec64;
+
+}
+.bubble {
+    position:absolute;
+    font-family: montserrat, sans-serif;  
+    font-weight: 600;    
+    font-style: normal;
+    text-transform:uppercase;
+}
+#entrepreneur-bubble span {
+    position:absolute;
+    top:43%;
+    left:5%;
+}
+#freelancer-bubble span {
+    position:absolute;
+    top:3.2rem;
+    left:0.4rem;
+}
+

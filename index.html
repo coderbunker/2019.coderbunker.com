@@ -11,7 +11,7 @@
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.typekit.net/qpj4ugj.css"> <!-- Montserrat font (bold, semiBold, Regular)-->
     <script src="js/wow.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.11.8/paper-full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <!-- Personal CSS-->
     <link href="css/main.css" rel="stylesheet">
 </head>
@@ -66,11 +66,21 @@
                         </div>
                     </nav>
                 </header>
-                <div class="container">
-                    <div class="col-6" id="coderBunkerSentence">
-                        <h1>What is Coderbunker in one sentence ?</h1>
-                        <p>An ecosystem focus on softazare design, learner ship and inovation</p>
-                        <button>Join us!</button>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6 mx-auto" id="coderBunkerSentence">
+                            <h1 class=>What is Coderbunker in one sentence ?</h1>
+                            <p>An ecosystem focus on softazare design, learner ship and inovation</p>
+                            <button>Join us!</button>
+                        </div>
+                        <div class="col-6" id="bubbles-container">
+                            <div class="rounded-circle bubble" id="entrepreneur-bubble">
+                                <span>entrepreneur</span>
+                            </div>
+                            <div class="rounded-circle bubble" id="freelancer-bubble">
+                                <span>Freelancer</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -154,7 +164,7 @@
                         </div>
                         <div class="col-12 role-container">
                             <div class="container-fluid">
-                                <div class="row">
+                                <div class="row" id="entrepreneur-content">
                                         <div class="role-image col-4 ml-auto">
                                             <img src="images/roles/entrepreneur.jpg" />
                                         </div>
@@ -215,7 +225,7 @@
                                         </div>
                                         <div class="col-3 mx-auto">
                                             <img src="images/people/julien.jpg" width="30%" class="mx-auto d-block rounded-circle"/>
-                                            <h4 class="text-center people-name">Ricky Ng Adam</h4>
+                                            <h4 class="text-center people-name">Julien Choulet</h4>
                                             <p class="people-quote">“We do not se nature with our eyes, but with our understandings and our hearts.”</p>
                                         </div>
                                     </div>
@@ -282,5 +292,13 @@
                     <!-- End footer section -->
                 </div> <!-- End row div -->
             </div> <!-- End container div -->
+            <!-- Script for animate when scrolling effect -->
+            <script type="text/javascript">
+                $("#entrepreneur-bubble").click(function() {
+                    $('html,body').animate({
+                        scrollTop: $("#entrepreneur-content").offset().top},
+                        'slow');
+                });
+            </script>
 </body>
 </html>
