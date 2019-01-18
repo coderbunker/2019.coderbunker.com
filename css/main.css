@@ -52,8 +52,8 @@ header {
 #header-container {
     background-color:#003557 !important;
     color:white;
-    border-bottom-left-radius: 80% 20%;
-    border-bottom-right-radius: 80% 20%;
+    border-bottom-left-radius: 80% 10%;
+    border-bottom-right-radius: 80% 10%;
     background-image:url('../images/bg.png');
     background-repeat:no-repeat;
     background-size:contain;
@@ -88,7 +88,7 @@ header {
     color:white !important;
     font-family: montserrat, sans-serif;
     font-weight: 600;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .proposal-title {
@@ -133,11 +133,11 @@ p.proposal-text{
     font-style: normal;
 }
 .role-message h4 span.underline {
-    text-decoration: underline !important;
-    text-decoration-color: #003557 !important;
     font-family: montserrat, sans-serif;
     font-weight: 800;
     font-style: normal;
+    border-bottom: 2px solid #003557;
+    padding-bottom:3px;
 }
 .read-more-button {
     background-color: white;
@@ -272,23 +272,9 @@ ul.navbar-nav .nav-item a:hover:after {
 
 
 /* bubbles*/
+/* general */
 #bubbles-container {
     position:relative;
-}
-#freelancer-bubble {
-    width: 8rem;
-    height: 8rem;
-    color: #003557;
-    background-color:#fff;
-    right:40%;
-
-}
-#entrepreneur-bubble {
-    width: 10rem;
-    height: 10rem;
-    color: #003557;
-    background-color:#fcec64;
-
 }
 .bubble {
     position:absolute;
@@ -296,15 +282,98 @@ ul.navbar-nav .nav-item a:hover:after {
     font-weight: 600;    
     font-style: normal;
     text-transform:uppercase;
+    cursor: pointer; 
+}
+/* entrepreneur bubble */
+#entrepreneur-bubble {
+    width: 9rem;
+    height: 9rem;
+    color: #003557;
+    background-color:#fcec64;
+    top:-6%;
+    left:5%;
+
 }
 #entrepreneur-bubble span {
     position:absolute;
-    top:43%;
-    left:5%;
+    top:41%;
+    left:3%;
+}
+/* freelancer bubble */
+#freelancer-bubble {
+    width: 7rem;
+    height: 7rem;
+    color: #003557;
+    background-color:#fff;
+    right:45%;
+    top:-12%;
+
 }
 #freelancer-bubble span {
     position:absolute;
-    top:3.2rem;
-    left:0.4rem;
+    top:41%;
+    left:10%;
+    font-size:0.9vw;
 }
+/* community bubble */
+#community-bubble {
+    width: 8rem;
+    height: 8rem;
+    color: #FFF;
+    background-color:#e74c3c;
+    bottom:39%;
+    left:20%;
 
+}
+#community-bubble span {
+    position:absolute;
+    top:41%;
+    left:9%;
+}
+/* investor bubble */
+#investor-bubble {
+    width: 6rem;
+    height: 6rem;
+    color: #FFF;
+    background-color:#f7941d;
+    bottom:50%;
+    left:0%;
+
+}
+#investor-bubble span {
+    position:absolute;
+    top:37%;
+    left:6%;
+}
+/* learner bubble */
+#learner-bubble {
+    width: 5rem;
+    height: 5rem;
+    color: #FFF;
+    background-color:#4466c9;
+    bottom:55%;
+    right:40%;
+    font-size:0.8vw;
+
+}
+#learner-bubble span {
+    position:absolute;
+    top:39%;
+    left:12%;
+}
+/* void bubble */
+#void-bubble {
+    width: 2rem;
+    height: 2rem;
+    color: #FFF;
+    background-color:#4466c9;
+    bottom:75%;
+    right:61%;
+    font-size:0.8vw;
+
+}
+#void-bubble span {
+    position:absolute;
+    top:39%;
+    left:12%;
+}

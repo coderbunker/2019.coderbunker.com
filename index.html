@@ -28,25 +28,25 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link scroll-link" href="#section-1">Community</a>
+                                    <a id="community" class="nav-link scroll-link" href="#section-1">Community</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link scroll-link" href="#section-1">Work</a>
+                                    <a id="work" class="nav-link scroll-link" href="#section-1">Work</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link scroll-link" href="#section-2">About</a>
+                                    <a id="about" class="nav-link scroll-link" href="#section-2">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link scroll-link" href="#section-3">Careers</a>
+                                    <a id="careers" class="nav-link scroll-link" href="#section-3">Careers</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link scroll-link" href="#section-4">Events</a>
+                                    <a id="events" class="nav-link scroll-link" href="#section-4">Events</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link scroll-link" href="#section-4">Blog</a>
+                                    <a id="blog" class="nav-link scroll-link" href="#section-4">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link scroll-link" href="#section-4">Contact</a>
+                                    <a id="contact" class="nav-link scroll-link" href="#section-4">Contact</a>
                                 </li>
                             </ul>
                             <ul class="navbar-nav ml-auto social-network-icons">
@@ -68,7 +68,7 @@
                 </header>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-6 mx-auto" id="coderBunkerSentence">
+                        <div class="col-5 ml-5" id="coderBunkerSentence">
                             <h1 class=>What is Coderbunker in one sentence ?</h1>
                             <p>An ecosystem focus on softazare design, learner ship and inovation</p>
                             <button>Join us!</button>
@@ -79,6 +79,17 @@
                             </div>
                             <div class="rounded-circle bubble" id="freelancer-bubble">
                                 <span>Freelancer</span>
+                            </div>
+                            <div class="rounded-circle bubble" id="community-bubble">
+                                <span>Community</span>
+                            </div>
+                            <div class="rounded-circle bubble" id="investor-bubble">
+                                <span>Investor</span>
+                            </div>
+                            <div class="rounded-circle bubble" id="learner-bubble">
+                                <span>learner</span>
+                            </div>
+                            <div class="rounded-circle bubble" id="void-bubble">
                             </div>
                         </div>
                     </div>
@@ -119,7 +130,7 @@
                     <div class="section-title col-12 mh-100 p-0"><h2>WHO ARE WE?</h2></div>
                         <div class="col-12 role-container">
                         <div class="container-fluid">
-                                <div class="row">
+                                <div class="row" id="learner-content">
                                     <div class="role-image col-4 ml-auto">
                                         <img alt="learner role explanation" src="images/roles/learner.jpg" />
                                     </div>
@@ -141,7 +152,7 @@
                         </div>
                         <div class="col-12 role-container">
                             <div class="container-fluid">
-                                <div class="row">
+                                <div class="row" id="freelancer-content">
                                     <div class="role-message col-5 ml-auto">
                                         <span>interactive</span>
                                         <h4><span class="underline">Free</span>lancer</h4>
@@ -185,7 +196,7 @@
                         </div> 
                         <div class="col-12 role-container">
                             <div class="container-fluid">
-                                <div class="row">
+                                <div class="row" id="investor-content">
                                     <div class="role-message col-5 ml-auto">
                                         <span>passionate</span>
                                         <h4><span class="underline">Inve</span>stor</h4>
@@ -297,6 +308,24 @@
                 $("#entrepreneur-bubble").click(function() {
                     $('html,body').animate({
                         scrollTop: $("#entrepreneur-content").offset().top},
+                        'slow');
+                });
+
+                $("#freelancer-bubble").click(function() {
+                    $('html,body').animate({
+                        scrollTop: $("#freelancer-content").offset().top},
+                        'slow');
+                });
+
+                $("#investor-bubble").click(function() {
+                    $('html,body').animate({
+                        scrollTop: $("#investor-content").offset().top},
+                        'slow');
+                });
+
+                $("#learner-bubble").click(function() {
+                    $('html,body').animate({
+                        scrollTop: $("#learner-content").offset().top},
                         'slow');
                 });
             </script>
