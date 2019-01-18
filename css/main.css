@@ -39,12 +39,22 @@ header {
 #header-container {
     background-color:#003557 !important;
     color:white;
-    border-bottom-left-radius: 50% 20%;
-    border-bottom-right-radius: 50% 20%;
+    border-bottom-left-radius: 80% 20%;
+    border-bottom-right-radius: 80% 20%;
+    background-image:url('../images/bg.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:bottom;
   }
 }
 #coderBunkerSentence {
     background-color:#003557 !important;
+}
+#coderBunkerSentence h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+
 }
 #coderBunkerSentence button {
     background-color:#e74c3c;
