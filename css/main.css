@@ -1,0 +1,221 @@
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #434769;
+    margin: 1em 0;
+    padding: 0; 
+}
+h4 {
+    font-size:1.2rem;
+}
+/* Header */
+.navbar-brand {
+    color:white;
+    font-family: montserrat, sans-serif;  
+    font-weight: 700;    
+    font-style: normal;
+    letter-spacing: 1px;
+    
+    
+}
+.nav-item a {
+    color:white !important;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.social-network-icons li {
+    padding-left:1rem;
+}
+.nav-item a:hover {
+
+}
+
+header {
+    color:white;
+    margin-bottom:9rem;
+}
+#header-container {
+    background-color:#003557 !important;
+    color:white;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+  }
+}
+#coderBunkerSentence {
+    background-color:#003557 !important;
+}
+#coderBunkerSentence button {
+    background-color:#e74c3c;
+    border:none;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    color:white !important;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.proposal-title {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+
+}
+p.proposal-text{
+    margin-top:0.5rem;
+    font-family: lato, sans-serif;
+    font-weight:400;
+    font-style:normal;
+}
+.section-title h4{
+    margin-top:10rem;
+    margin-bottom:5rem;
+    font-family: montserrat, sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.section-title h2{
+    margin-top:10rem;
+    margin-bottom:5rem;
+    font-family: montserrat, sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+#coderBunkerSentence {
+    padding-bottom:15rem;
+}
+.learn-more-left {
+
+}
+.role-message h4{
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.role-message span {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.role-message h4 span.underline {
+    text-decoration: underline !important;
+    text-decoration-color: #003557 !important;
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.read-more-button {
+    background-color: white;
+    border-radius: 2rem;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-size:14px;
+    padding:0.5rem;
+    padding-left:0.8rem;
+    padding-right:0.8rem;
+    border-width: thin;
+    border-color:black;
+    font-style: normal;
+}
+.role-image img {
+    width:100%;
+    border:none;
+}
+.role-message p {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    
+}
+.role-container{
+    margin-bottom:12rem;
+}
+#footer-container {
+    margin-top:6rem;
+}
+#footer-social-icons {
+    color: #b5b5c8 !important;
+    font-size:1.5vw;
+}
+#logo-footer {
+    color:#e74c3c;
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    font-style:normal;
+    font-size:1.5vw;
+}
+#copyright {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-size:1vw;
+    font-style:normal;
+    color: #565b87;
+    margin-top:2rem;
+    margin-right:1rem;
+}
+#copyright img {
+    margin-top:2rem;
+    margin-right:1rem;
+    width:3%;
+    margin-bottom:2rem;
+}
+#footer-franchise-container {
+    color:#b5b5c8;
+    font-family: montserrat, sans-serif;  
+    font-weight: 700;    
+    font-style: normal;
+}
+#footer-franchise-container ul li div h5 {
+    font-family: montserrat, sans-serif;  
+    font-weight: 700;    
+    font-style: normal;
+
+}
+.franchise-city {
+    font-family: montserrat, sans-serif;  
+    font-weight: 700;    
+    font-style: normal;
+    color: #b5b5c8;
+}
+.franchise-text {
+    font-family: montserrat, sans-serif;  
+    font-weight: 300;    
+    font-style: normal;
+    color: #b5b5c8;
+}
+
+/* Icons */
+.fa-handshake, .fa-money-check-alt, .fa-smile-wink {
+    color:#e74c3c;
+    font-size: 4vw;
+}
+/* Styles needed for menu effect */
+li {
+
+  display: table-cell; 
+  position: relative; 
+}
+.nav-link:hover:after {
+}
+ul.navbar-nav .nav-item a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  text-shadow: 0 0 .65px #FFF, 0 0 .65px #FFF;
+ 
+}
+ul.navbar-nav .nav-item a:hover:after { 
+  width: 100%; 
+  left: 0;
+  text-shadow: 0 0 .65px #FFF, 0 0 .65px #FFF;
+}
