@@ -28,9 +28,6 @@ h4 {
 .social-network-icons li {
     padding-left:1rem;
 }
-.nav-item a:hover {
-
-}
 
 header {
     color:white;
@@ -45,6 +42,7 @@ header {
     background-repeat:no-repeat;
     background-size:contain;
     background-position:bottom;
+    min-height: 57rem;
   }
 }
 #coderBunkerSentence {
