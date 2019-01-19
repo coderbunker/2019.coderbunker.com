@@ -18,6 +18,9 @@
     .proposal-title {
         font-size:1.4rem;
     }
+    .people-content img {
+        width:70% !important;
+    }
 }
 hr {
     display: block;
@@ -139,6 +142,12 @@ p.proposal-text{
     font-weight: 800;
     font-style: normal;
 }
+.role-message h3{
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-bottom:0.7rem;
+}
 .role-message span {
     font-family: montserrat, sans-serif;
     font-weight: 400;
@@ -150,6 +159,19 @@ p.proposal-text{
     font-style: normal;
     border-bottom: 2px solid #003557;
     padding-bottom:3px;
+}
+.role-message h3 span.underline {
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    border-bottom: 2px solid #003557;
+    padding-bottom:3px;
+}
+.role-text {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 .read-more-button {
     background-color: white;
@@ -229,6 +251,9 @@ p.proposal-text{
     font-weight: 300;    
     font-style: normal;
     color: #b5b5c8;
+}
+.people-content img {
+    width:50%;
 }
 .people-name {
     margin-top:0.5rem;
