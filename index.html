@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/qpj4ugj.css"> <!-- Montserrat font (bold, semiBold, Regular)-->
     <script src="js/wow.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
     <!-- Personal CSS-->
     <link href="css/main.css" rel="stylesheet">
 </head>
@@ -26,6 +27,8 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
+                            <!-- Not being used for now -->
+                        <!--
                             <ul class="navbar-nav ml-auto" id="sectionNav">
                                 <li class="nav-item">
                                     <a id="community" class="nav-link scroll-link" href="#section-1">Community</a>
@@ -49,6 +52,7 @@
                                     <a id="contact" class="nav-link scroll-link" href="#section-4">Contact</a>
                                 </li>
                             </ul>
+                        -->
                             <ul class="navbar-nav ml-auto social-network-icons">
                                 <li class="nav-item">
                                     <a href="https://www.facebook.com/coderbunker"><i class="fab fa-facebook-f"></i></a>
@@ -343,6 +347,10 @@
                     $('html,body').animate({ scrollTop: 0 }, 'slow');
                     return false; 
                 });
+                /* Later
+                $(".read-more-button").hover(function() {
+                $(".read-more-button").animate({backgroundColor: '#e74c3c'})
+                }); */
             });
             </script>
 </body>

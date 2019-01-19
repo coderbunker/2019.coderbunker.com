@@ -21,6 +21,9 @@
     .people-content img {
         width:70% !important;
     }
+    .fa-facebook-f, .fa-linkedin, .fa-weixin, .fa-medium {
+        font-size: 2.3vw !important;
+    }
 }
 hr {
     display: block;
@@ -185,6 +188,7 @@ p.proposal-text{
     border-width: thin;
     border-color:black;
     font-style: normal;
+    cursor:pointer;
 }
 .role-image img {
     width:100%;
@@ -277,7 +281,7 @@ p.proposal-text{
     font-size: 4vw;
 }
 .fa-facebook-f, .fa-linkedin, .fa-weixin, .fa-medium {
-    font-size: 1.5vw;
+    font-size: 1.6vw;
 }
 /* Styles needed for menu effect */
 li {
