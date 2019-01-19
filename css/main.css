@@ -58,7 +58,7 @@ header {
     background-repeat:no-repeat;
     background-size:contain;
     background-position:bottom;
-    min-height: 57rem;
+    min-height: 60rem;
   }
 }
 #coderBunkerSentence {
@@ -69,7 +69,7 @@ header {
     font-weight: 700;
     font-style:normal;
     margin-bottom:2rem;
-
+    line-height:4rem;
 }
 #coderBunkerSentence p {
     font-family: montserrat, sans-serif;
@@ -305,8 +305,8 @@ ul.navbar-nav .nav-item a:hover:after {
     height: 7rem;
     color: #003557;
     background-color:#fff;
-    right:45%;
-    top:-12%;
+    right:35%;
+    top:-8%;
 
 }
 #freelancer-bubble span {
@@ -321,7 +321,7 @@ ul.navbar-nav .nav-item a:hover:after {
     height: 8rem;
     color: #FFF;
     background-color:#e74c3c;
-    bottom:39%;
+    bottom:49%;
     left:20%;
 
 }
@@ -336,7 +336,7 @@ ul.navbar-nav .nav-item a:hover:after {
     height: 6rem;
     color: #FFF;
     background-color:#f7941d;
-    bottom:50%;
+    bottom:60%;
     left:0%;
 
 }
@@ -351,8 +351,8 @@ ul.navbar-nav .nav-item a:hover:after {
     height: 5rem;
     color: #FFF;
     background-color:#4466c9;
-    bottom:55%;
-    right:40%;
+    bottom:60%;
+    right:32%;
     font-size:0.8vw;
 
 }
