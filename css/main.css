@@ -10,6 +10,14 @@
         margin-left: auto !important;
           text-align: center !important;
     }
+    .propose-container {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    }
+    .proposal-title {
+        font-size:1.4rem;
+    }
 }
 hr {
     display: block;
@@ -34,6 +42,10 @@ h4 {
     letter-spacing: 1px;
     
     
+}
+.navbar-brand:hover {
+    color:white;
+
 }
 .nav-item a {
     color:white !important;
@@ -248,9 +260,7 @@ li {
   display: table-cell; 
   position: relative; 
 }
-.nav-link:hover:after {
-}
-ul.navbar-nav .nav-item a:after {    
+#sectionNav .nav-item a:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -264,13 +274,17 @@ ul.navbar-nav .nav-item a:after {
   text-shadow: 0 0 .65px #FFF, 0 0 .65px #FFF;
  
 }
-ul.navbar-nav .nav-item a:hover:after { 
+#sectionNav .nav-item a:hover:after { 
   width: 100%; 
   left: 0;
   text-shadow: 0 0 .65px #FFF, 0 0 .65px #FFF;
 }
-
-
+.social-network-icons {
+    text-shadow:0 !important;
+}
+#go-to-top {
+    cursor: pointer;
+}
 /* bubbles*/
 /* general */
 #bubbles-container {
