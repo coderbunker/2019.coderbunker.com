@@ -24,6 +24,12 @@
     .fa-facebook-f, .fa-linkedin, .fa-weixin, .fa-medium {
         font-size: 2.3vw !important;
     }
+    #join-us-button {
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+
+    }
 }
 hr {
     display: block;
@@ -65,7 +71,9 @@ h4 {
 
 header {
     color:white;
-    margin-bottom:9rem;
+}
+#header-content {
+    margin-top:9rem;
 }
 #header-container {
     background-color:#003557 !important;
@@ -104,11 +112,13 @@ header {
     padding-left:2rem;
     padding-right:2rem;
     color:white !important;
-    font-family: montserrat, sans-serif;
+    font-family: montserrat, sans-serif !important;
     font-weight: 600;
     border-radius: 7px;
 }
-
+#join-us-button:link {
+    text-decoration: none;
+}
 .proposal-title {
     font-family: montserrat, sans-serif;
     font-weight: 700;
