@@ -210,6 +210,10 @@ p.proposal-text{
     color: #b5b5c8 !important;
     font-size:1.5vw;
 }
+#footer-social-icons nav ul li a{
+    color: #b5b5c8 !important;
+    font-size:1.5vw;
+}   
 #logo-footer {
     color:#e74c3c;
     font-family: montserrat, sans-serif;
