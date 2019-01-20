@@ -31,22 +31,6 @@
 
     }
 }
-@media only screen and (min-width: 1280px) and (max-width: 2100px) {
-
-#freelancer-bubble span {
-    position:absolute;
-    top:41%;
-    left:10%;
-    font-size:0.7vw;
-}
-#learner-bubble span {
-    position:absolute;
-    top:39%;
-    left:9% ;
-    font-size:0.7vw;
-}
-
-}
 hr {
     display: block;
     height: 1px;
