@@ -31,6 +31,22 @@
 
     }
 }
+@media only screen and (min-width: 1280px) and (max-width: 2100px) {
+
+#freelancer-bubble span {
+    position:absolute;
+    top:41%;
+    left:10%;
+    font-size:0.7vw;
+}
+#learner-bubble span {
+    position:absolute;
+    top:39%;
+    left:9% ;
+    font-size:0.7vw;
+}
+
+}
 hr {
     display: block;
     height: 1px;
@@ -362,7 +378,7 @@ li {
     height: 7rem;
     color: #003557;
     background-color:#fff;
-    right:35%;
+    right:0%;
     top:-8%;
 
 }
@@ -378,8 +394,8 @@ li {
     height: 8rem;
     color: #FFF;
     background-color:#e74c3c;
-    bottom:49%;
-    left:20%;
+    bottom:50%;
+    left:25%;
 
 }
 #community-bubble span {
@@ -394,7 +410,7 @@ li {
     color: #FFF;
     background-color:#f7941d;
     bottom:60%;
-    left:0%;
+    left:-20%;
 
 }
 #investor-bubble span {
@@ -409,14 +425,14 @@ li {
     color: #FFF;
     background-color:#4466c9;
     bottom:60%;
-    right:32%;
-    font-size:0.8vw;
+    right:-2%;
 
 }
 #learner-bubble span {
     position:absolute;
     top:39%;
     left:12%;
+    font-size:0.9vw;
 }
 /* void bubble */
 #void-bubble {
@@ -424,8 +440,8 @@ li {
     height: 2rem;
     color: #FFF;
     background-color:#4466c9;
-    bottom:75%;
-    right:61%;
+    bottom:85%;
+    right:36%;
     font-size:0.8vw;
 
 }
