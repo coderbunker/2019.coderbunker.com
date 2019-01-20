@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 992px) {
     #bubbles-container {
         display:none
@@ -30,6 +31,22 @@
         text-align: center !important;
 
     }
+}
+@media only screen and (min-width: 1500px) and (max-width:2100px) {
+
+    #learner-bubble span {
+        position:absolute;
+        top:39%;
+        left:12%;
+        font-size:0.7vw !important;
+    }
+    #freelancer-bubble span {
+        position:absolute;
+        top:41%;
+        left:10%;
+        font-size:0.7vw !important;
+    }
+
 }
 hr {
     display: block;
