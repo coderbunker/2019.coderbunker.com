@@ -2,6 +2,8 @@
 <head>
     <meta charset="utf-8">
     <title>Coderbunker Website</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Bootstrap core CSS -->
     <link http-equiv="Content-Type" content="text/html;charset=UTF-8" href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
     <!-- Animate CSS-->
@@ -54,15 +56,14 @@
                         -->
                             <ul class="navbar-nav ml-auto social-network-icons">
                                 <li class="nav-item">
+                                   <i class="fab fa-weixin"><span class="wechat-account" id="header-wechat-account" style="display:none;">coderbunker</span></i>
+                                </li>
+                                <li class="nav-item">
                                     <a href="https://www.facebook.com/coderbunker" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
                                 </li>
                                 <li class="nav-item">
                                         <a href="https://www.linkedin.com/company/coderbunker/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
                                 </li>
-                                <!-- we will use it later -->
-                                <!-- <li class="nav-item">
-                                   <i class="fab fa-weixin"></i>
-                                </li> -->
                                 <li class="nav-item">
                                     <a href="https://medium.com/coderbunker" target="_blank" rel="noopener noreferrer"><i class="fab fa-medium"></i></a>
                                 </li>
@@ -151,7 +152,10 @@
                                                 <li class="d-block">-   Focused on growth</li>
                                             </ul>
                                         </div>
+                                        <!-- We don't use it yet -->
+                                        <!-- 
                                         <button class="read-more-button">learn more</button>
+                                        -->
                                     </div>
                                 </div>
                             </div> 
@@ -172,7 +176,10 @@
                                             </ul>
                                         </div>  
                                         <div class="mr-0 pr-0 float-right">
+                                            <!-- We don't use it yet -->
+                                            <!-- 
                                             <button class="read-more-button">learn more</button>
+                                            -->
                                         </div>
                                     </div>
                                     <div class="role-image col-4 mr-auto">
@@ -198,7 +205,10 @@
                                                     <li class="d-block"><b>-</b>  Right resource at the right price at the right time</li>
                                                 </ul>
                                             </div>
+                                            <!-- We don't use it yet -->
+                                            <!-- 
                                             <button class="read-more-button">learn more</button>
+                                            -->
                                         </div>
                                 </div>
                             </div>
@@ -295,6 +305,9 @@
                                         <nav class="navbar navbar-expand-sm">
                                             <ul class="navbar-nav ml-0">
                                                 <li class="nav-item list-inline-item pr-3">
+                                                   <i class="fab fa-weixin"><span class="wechat-account" id="footer-wechat-account" style="display:none;">coderbunker</span></i>
+                                                </li>
+                                                <li class="nav-item list-inline-item pr-3">
                                                    <a href="https://www.facebook.com/coderbunker" target="_blank" rel="noopener noreferrer"> <i class="fab fa-facebook-f"></a></i>
                                                 </li>
                                                 <li class="nav-item list-inline-item pr-3">
@@ -349,6 +362,11 @@
                     $('html,body').animate({ scrollTop: 0 }, 'slow');
                     return false; 
                 });
+                $(".fa-weixin").click(function(event) {
+                    var elementId = (this).id;
+                    console.log(elementId); 
+                $("#header-wechat-account").css({display: 'inline-block'})
+                }); 
                 /* Later
                 $(".read-more-button").hover(function() {
                 $(".read-more-button").animate({backgroundColor: '#e74c3c'})

@@ -29,7 +29,13 @@
         margin-right: auto !important;
         margin-left: auto !important;
         text-align: center !important;
-
+    }
+    .wechat-account {
+        font-size: 2.5vw !important;
+        font-family: montserrat, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left:0.5rem;
     }
 }
 @media only screen and (min-width: 1500px) and (max-width:2100px) {
@@ -91,6 +97,13 @@ header {
 }
 #header-content {
     margin-top:9rem;
+}
+.wechat-account {
+    font-size: 1vw;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left:0.5rem;
 }
 #header-container {
     background-color:#003557 !important;
@@ -313,6 +326,9 @@ p.proposal-text{
 }
 .fa-facebook-f, .fa-linkedin, .fa-weixin, .fa-medium {
     font-size: 1.6vw;
+}
+.fa-weixin {
+    cursor: pointer
 }
 /* Styles needed for menu effect */
 li {
