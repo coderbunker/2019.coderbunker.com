@@ -1,4 +1,225 @@
+/* css for mobile-devices */
+@media only screen and (min-width:325px) and (max-width:768px) {
+    /* Header section */
+    #coderBunkerSentence h1 {
+        font-family: montserrat, sans-serif;
+        font-weight: 700;
+        font-style:normal;
+        margin-bottom:2rem;
+        line-height:8vw !important;
+        font-size:7vw;
+    }
+    /* we propose section */
+    /* Start community propose container */
+    #community-propose-container {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
 
+    }
+    #community-propose-container div {
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    /* end community propose container */
+    /* Start workplace propose container */
+    #workplace-propose-container {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #workplace-propose-container div{
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    /* end workplace propose container */
+    /* Start make a living propose container */
+    #makeliving-propose-container {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #makeliving-propose-container div{
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+
+    /* who are we section */
+
+    /* Start learner-content section */
+    #learner-image-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    #learner-text-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    /* Start freelancer-content section */
+    #freelancer-image-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    #freelancer-text-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    /* Start entrepreneur-content section */
+    #entrepreneur-image-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    #entrepreneur-text-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    /* who are we section ended here */
+    /* what people are saying section*/
+    #people-left-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    #people-center-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top:15vh;
+
+    }
+    #people-right-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top:15vh;
+    }
+    /* what people are saying section ended here */
+    /* franchises section*/
+    #logo-footer-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+
+    }
+    #logo-footer-content span {
+        font-size:6vw;
+    }
+    #shanghai-franchise {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+
+    }
+    #shanghai-franchise-title {
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    #singapore-franchise {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+
+    }
+    #singapore-franchise-title {
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    #birmingham-franchise {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    #birmingham-franchise-title {
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    /* franchises section ended here */
+    /* footer social icons section */
+    #footer-social-icons {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    .nav-item a .fa-facebook-f, .nav-item a .fa-linkedin, .nav-item .fa-weixin, .nav-item a .fa-medium {
+        font-size: 5vw !important;
+    }
+    /* footer social icons section ended here */
+    /* copyright section */
+    #copyright p {
+        font-size:3.5vw;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    #go-to-top {
+        width: 8%;
+        height: auto;
+        margin-bottom:3vh;
+    }
+    /* copyright section ended here */
+}
+/* css for normal display */
 @media only screen and (max-width: 992px) {
     #bubbles-container {
         display:none
@@ -38,6 +259,7 @@
         margin-left:0.5rem;
     }
 }
+/* css for big displays */
 @media only screen and (min-width: 1500px) and (max-width:2100px) {
 
     #learner-bubble span {
@@ -54,6 +276,7 @@
     }
 
 }
+
 hr {
     display: block;
     height: 1px;
