@@ -200,6 +200,15 @@
         margin-left: auto !important;
         text-align: center !important;
     }
+    #footer-social-icons-container {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -ms-flex-direction: row;
+        flex-direction: row;
+
+    }
     .nav-item a .fa-facebook-f, .nav-item a .fa-linkedin, .nav-item .fa-weixin, .nav-item a .fa-medium {
         font-size: 5vw !important;
     }
