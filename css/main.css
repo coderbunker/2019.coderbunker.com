@@ -83,6 +83,12 @@
         max-width: 100%;
 
     }
+    #freelancer-content {
+        display:none
+    }
+    #freelancer-mobile-content {
+        display:block !important;
+    }
     /* Start entrepreneur-content section */
     #entrepreneur-image-content {
         /* col-12 */
@@ -474,6 +480,9 @@ p.proposal-text{
 }
 .role-container{
     margin-bottom:12rem;
+}
+#freelancer-mobile-content {
+    display:none;
 }
 #footer-container {
     margin-top:15rem;
