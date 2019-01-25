@@ -215,7 +215,7 @@
         flex-direction: row;
 
     }
-    .nav-item a .fa-facebook-f, .nav-item a .fa-github, .nav-item a .fa-linkedin, .nav-item .fa-weixin, .nav-item a .fa-medium {
+    .nav-item a .fa-facebook-f, .nav-item a .fa-github, .nav-item a .fa-linkedin, .nav-item .fa-weixin, .nav-item a .fa-medium, .nav-item a .fa-meetup {
         font-size: 5vw !important;
     }
     /* footer social icons section ended here */
@@ -258,7 +258,7 @@
     .people-content img {
         width:70% !important;
     }
-    .fa-facebook-f, .fa-linkedin, .fa-github, .fa-weixin, .fa-medium {
+    .fa-facebook-f, .fa-linkedin, .fa-github, .fa-weixin, .fa-medium , .fa-meetup{
         font-size: 2.3vw !important;
     }
     #join-us-button {
@@ -565,7 +565,7 @@ p.proposal-text{
     color:#e74c3c;
     font-size: 4vw;
 }
-.fa-facebook-f, .fa-github, .fa-linkedin, .fa-weixin, .fa-medium {
+.fa-facebook-f, .fa-github, .fa-linkedin, .fa-weixin, .fa-medium, .fa-meetup {
     font-size: 1.6vw;
 }
 .fa-weixin {
@@ -708,9 +708,7 @@ li {
     top:39%;
     left:12%;
 }
-
 #qrcode {
     width: 50%;
     height: auto;
-
 }
