@@ -206,6 +206,9 @@
         margin-left: auto !important;
         text-align: center !important;
     }
+    #footer-social-icons p {
+        font-size:3vw !important;
+    }
     #footer-social-icons-container {
         -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
@@ -709,6 +712,14 @@ li {
     left:12%;
 }
 #qrcode {
-    width: 50%;
+    max-width: 50%;
     height: auto;
+}
+#footer-social-icons p {
+    margin-top:2%;
+    margin-bottom:0;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-size:1vw;
 }
