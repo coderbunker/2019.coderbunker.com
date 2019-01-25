@@ -708,3 +708,9 @@ li {
     top:39%;
     left:12%;
 }
+
+#qrcode {
+    width: 50%;
+    height: auto;
+
+}
