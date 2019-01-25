@@ -206,6 +206,9 @@
         margin-left: auto !important;
         text-align: center !important;
     }
+    #footer-social-icons p {
+        font-size:3vw !important;
+    }
     #footer-social-icons-container {
         -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
@@ -743,7 +746,6 @@ li {
     top:39%;
     left:12%;
 }
-
 /* section css */
 
 .section-header-title {
@@ -824,4 +826,17 @@ li {
 .section-image img{
     width: 100%;
     height: auto;
+}
+
+#qrcode {
+    max-width: 50%;
+    height: auto;
+}
+#footer-social-icons p {
+    margin-top:2%;
+    margin-bottom:0;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-size:1vw;
 }
