@@ -218,6 +218,10 @@
     .nav-item a .fa-facebook-f, .nav-item a .fa-github, .nav-item a .fa-linkedin, .nav-item .fa-weixin, .nav-item a .fa-medium, .nav-item a .fa-meetup {
         font-size: 5vw !important;
     }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
     /* footer social icons section ended here */
     /* copyright section */
     #copyright p {
@@ -233,6 +237,22 @@
         margin-bottom:3vh;
     }
     /* copyright section ended here */
+
+    /* Section css */
+    .section-image {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .section-image img {
+        width:100%;
+        height:auto;
+    }
+    #section-info-container {
+        position:relative;
+        min-height:15% !important;
+    }
 }
 /* css for normal display */
 @media only screen and (max-width: 992px) {
@@ -258,7 +278,7 @@
     .people-content img {
         width:70% !important;
     }
-    .fa-facebook-f, .fa-linkedin, .fa-github, .fa-weixin, .fa-medium , .fa-meetup{
+    .fa-facebook-f, .fa-linkedin, .fa-github, .fa-weixin, .fa-medium, .fa-meetup {
         font-size: 2.3vw !important;
     }
     #join-us-button {
@@ -272,6 +292,11 @@
         font-weight: 400;
         font-style: normal;
         margin-left:0.5rem;
+    }
+    /* Section css */
+    #section-info-container {
+        position:relative;
+        min-height:35%;
     }
 }
 /* css for big displays */
@@ -335,6 +360,16 @@ header {
 }
 #header-content {
     margin-top:9rem;
+}
+#section-header-container {
+    background-color:#003557 !important;
+    color:white;
+    background-image:url('../images/bg-section.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:bottom;
+    min-height: 15rem;
+
 }
 .wechat-account {
     font-size: 1vw;
@@ -707,4 +742,86 @@ li {
     position:absolute;
     top:39%;
     left:12%;
+}
+
+/* section css */
+
+.section-header-title {
+    margin-top:3rem;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.section-header-wave {
+    background-image:url('../images/section-bottom-title.jpg');
+    background-color:#5c83f3;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:top;
+    min-height: 2rem;
+}
+#section-info-container {
+    position:relative;
+    min-height:50%;
+}
+.section-info-content {
+    background-color:#f3f3f3;
+    border-radius: 7px;
+    box-shadow: 0px 7px 10px 1px #ededee;
+    position:absolute;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style:normal;
+}
+.section-info-content h4 {
+    font-weight: 600;
+    font-size:1.2vw;
+    margin-top:10%;
+    margin-bottom:10%;
+
+}
+#section-content h3, #section-content p, #section-content ul li{
+    font-family: montserrat, sans-serif !important;
+    font-style:normal;
+}
+#section-content h3 {
+    font-size:1.5vw;
+    font-weight:600;
+}
+#section-content p {
+    font-size:1vw;
+}
+  
+.section-info-content p {
+    font-size:0.9vw;
+    margin-bottom:10%;
+}
+.section-info-content img{
+    padding-top:20%;
+}
+#section-info-content-right {
+    position:absolute;
+    right:0%;
+    top:-20%;
+
+}
+#section-info-content-left {
+    position:absolute;
+    top:-20%;
+}
+.section-content-12 {
+    margin-top:10%;
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+}
+.section-content-12 h2{
+    font-weight:600;
+    font-size:2vw;
+}
+.section-content-12 p {
+    font-size:1vw;
+}
+.section-image img{
+    width: 100%;
+    height: auto;
 }
