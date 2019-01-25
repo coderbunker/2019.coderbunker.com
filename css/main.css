@@ -1,6 +1,9 @@
 /* css for mobile-devices */
 @media only screen and (min-width:325px) and (max-width:768px) {
     /* Header section */
+    .navbar-brand {
+        display:none;
+    }
     #coderBunkerSentence h1 {
         font-family: montserrat, sans-serif;
         font-weight: 700;
@@ -219,7 +222,7 @@
 
     }
     .nav-item a .fa-facebook-f, .nav-item a .fa-github, .nav-item a .fa-linkedin, .nav-item .fa-weixin, .nav-item a .fa-medium, .nav-item a .fa-meetup {
-        font-size: 5vw !important;
+        font-size: 3vw !important;
     }
     .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -258,7 +261,14 @@
     }
 }
 /* css for normal display */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1080px) {
+    /* header */
+    #top-menu {
+        font-size:1.3vw;
+    }
+    .navbar-brand {
+        font-size:1.5vw;
+    }
     #bubbles-container {
         display:none
     }
@@ -282,7 +292,7 @@
         width:70% !important;
     }
     .fa-facebook-f, .fa-linkedin, .fa-github, .fa-weixin, .fa-medium, .fa-meetup {
-        font-size: 2.3vw !important;
+        font-size: 2vw !important;
     }
     #join-us-button {
         margin-right: auto !important;
@@ -318,6 +328,24 @@
         font-size:0.7vw !important;
     }
 
+}
+@media only screen and (max-width: 570px) {
+    #top-menu {
+        -ms-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .nav-item a .fa-facebook-f, .nav-item a .fa-github, .nav-item a .fa-linkedin, .nav-item .fa-weixin, .nav-item a .fa-medium, .nav-item a .fa-meetup {
+        font-size: 5vw !important;
+    }
+    #header-social-icons-container {
+        /* col-8 */
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+        float: right !important;
+
+    }
 }
 
 hr {
@@ -608,6 +636,9 @@ p.proposal-text{
 }
 .fa-weixin {
     cursor: pointer
+}
+#header-social-icons {
+    margin-top:15px;
 }
 /* Styles needed for menu effect */
 li {
