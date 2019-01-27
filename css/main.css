@@ -273,6 +273,109 @@
         position:relative;
         min-height:15% !important;
     }
+    /* section page */
+
+    .section-title h4{
+        margin-top:10rem;
+        margin-bottom:5rem;
+        font-family: montserrat, sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+    .section-title h2{
+        margin-top:10rem;
+        margin-bottom:5rem;
+        font-family: montserrat, sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
+
+    .section-header-title {
+        margin-top:3rem;
+        font-family: montserrat, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size:8vw;
+        /* col-12 */
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .section-header-wave {
+        background-image:url('../images/section-bottom-title.jpg');
+        background-color:#5c83f3;
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:top;
+        min-height: 2rem;
+    }
+    #section-info-container {
+        position:relative;
+        min-height:50%;
+    }
+    .section-info-content {
+        background-color:#f3f3f3;
+        border-radius: 7px;
+        box-shadow: 0px 7px 10px 1px #ededee;
+        position:absolute;
+        font-family: montserrat, sans-serif;
+        font-weight: 400;
+        font-style:normal;
+    }
+    .section-info-content h4 {
+        font-weight: 600;
+        font-size:1.2vw;
+        margin-top:10%;
+        margin-bottom:10%;
+
+    }
+    #section-content h3, #section-content p, #section-content ul li{
+        font-family: montserrat, sans-serif !important;
+        font-style:normal;
+    }
+    #section-content h3 {
+        font-size:1.5vw;
+        font-weight:600;
+    }
+    #section-content p {
+        font-size:1vw;
+    }
+    
+    .section-info-content p {
+        font-size:0.9vw;
+        margin-bottom:10%;
+    }
+    .section-info-content img{
+        padding-top:20%;
+    }
+    #section-info-content-right {
+        position:absolute;
+        right:0%;
+        top:-20%;
+
+    }
+    #section-info-content-left {
+        position:absolute;
+        top:-20%;
+    }
+    .section-content-12 {
+        margin-top:10%;
+        font-family: montserrat, sans-serif;
+        font-style: normal;
+    }
+    .section-content-12 h2{
+        font-weight:600;
+        font-size:2vw;
+    }
+    .section-content-12 p {
+        font-size:1vw;
+    }
+    .section-image img{
+        width: 100%;
+        height: auto;
+    }
+
 }
 /* css for normal display */
 @media only screen and (max-width: 1080px) {
@@ -427,7 +530,7 @@ header {
     background-repeat:no-repeat;
     background-size:contain;
     background-position:bottom;
-    min-height: 15rem;
+    min-height: 5rem;
 
 }
 .wechat-account {
@@ -812,6 +915,13 @@ li {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
+    /* col-8 */
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    text-align: center !important;
 }
 .section-header-wave {
     background-image:url('../images/section-bottom-title.jpg');
