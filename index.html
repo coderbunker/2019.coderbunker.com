@@ -17,6 +17,7 @@
         <!-- viewport -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- JS -->
+        <script src="js/responsive-nav.js"></script>
         <script type="text/javascript" src="js/wow.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" integrity="sha384-fJU6sGmyn07b+uD1nMk7/iSb4yvaowcueiQhfVgQuD98rfva8mcr1eSvjchfpMrH" crossorigin="anonymous"></script><script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha384-YWP9O4NjmcGo4oEJFXvvYSEzuHIvey+LbXkBNJ1Kd0yfugEZN9NCQNpRYBVC1RvA" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
@@ -26,6 +27,7 @@
         <!-- Animate CSS-->
         <link http-equiv="Content-Type" content="text/html;charset=UTF-8" rel="stylesheet" href="css/animate.css">
         <!-- css and fonts-->
+        <link rel="stylesheet" href="css/responsive-nav.css">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link http-equiv="Content-Type" content="text/html;charset=UTF-8" href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
         <link http-equiv="Content-Type" content="text/html;charset=UTF-8" href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
@@ -36,38 +38,38 @@
     <div class="container-fluid" >
         <div class="row" id="header-container">   
             <div class="col-8" id="top-menu">
-                <nav class="navbar navbar-expand-md navbar-toggler-md navbar-no-bg" role="navigation">
-                    <a href="/"class="navbar-brand"><img alt="logo Coderbunker" src="images/icons/logo.png" /> Coderbunker</a>
-                    <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <!-- Not being used for now -->
-                        <ul class="navbar-nav ml-auto" id="sectionNav">
-                            <li class="nav-item">
-                                <a id="community" class="nav-link scroll-link" href="#section-1">Community</a>
-                            </li>
-                            <li class="nav-item">
-                                <a id="work" class="nav-link scroll-link" href="#section-1">Work</a>
-                            </li>
-                            <li class="nav-item">
-                                <a id="about" class="nav-link scroll-link" href="#section-2">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a id="careers" class="nav-link scroll-link" href="#section-3">Careers</a>
-                            </li>
-                            <li class="nav-item">
-                                <a id="events" class="nav-link scroll-link" href="#section-4">Events</a>
-                            </li>
-                            <li class="nav-item">
-                                <a id="blog" class="nav-link scroll-link" href="#section-4">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a id="contact" class="nav-link scroll-link" href="#section-4">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+                    <nav class="navbar navbar-expand-md navbar-toggler-md navbar-no-bg" role="navigation">
+                            <a href="/"class="navbar-brand"><img alt="logo Coderbunker" src="images/icons/logo.png" /> Coderbunker</a>
+                            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-toggle="collapse" data-target="#navbarCollapse">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <!-- Not being used for now -->
+                                <ul class="navbar-nav ml-auto" id="sectionNav">
+                                    <li class="nav-item">
+                                        <a id="community" class="nav-link scroll-link" href="#section-1">Community</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a id="work" class="nav-link scroll-link" href="#section-1">Work</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a id="about" class="nav-link scroll-link" href="#section-2">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a id="careers" class="nav-link scroll-link" href="#section-3">Careers</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a id="events" class="nav-link scroll-link" href="#section-4">Events</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a id="blog" class="nav-link scroll-link" href="#section-4">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a id="contact" class="nav-link scroll-link" href="#section-4">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </nav>
             </div>
             <div class="col-4 navbar-expand-sm" id="header-social-icons-container">
                 <nav class="navbar navbar-expand-sm mx-auto" id="header-social-icons">
@@ -433,6 +435,36 @@
                 $(".read-more-button").animate({backgroundColor: '#e74c3c'})
                 }); */
             });
+            </script>
+            <script type="text/javascript">
+                var clicks = 0;
+                $(".navbar-toggler").click(function() {
+                    clicks+= 1;
+                    if(isOdd(clicks)) 
+                    {
+                        $("#header-social-icons-container").css("display","none");
+                        $("#top-menu").attr("id","top-menu-clicked");
+                        $("#top-menu-clicked").removeClass("col-8");
+                        $("#top-menu-clicked").addClass("col-12");
+                        $("#navbarCollapse").addClass("navCollapseAfter");
+
+                    } else { 
+                        $("#header-social-icons-container").css("display","block");
+                        $("#top-menu-clicked").attr("id","top-menu");
+                        $("#top-menu").addClass("col-8");
+                        $("#top-menu").removeClass("col-12");
+                        $("#navbarCollapse").removeClass("navCollapseAfter");
+
+                    }
+                });
+                function isOdd(n) {
+                    if(Math.abs(n % 2) == 1) {
+                        console.log(true);
+                        return true;
+                    } else {
+                        return false;
+                    }
+                }
             </script>
 </body>
 </html>

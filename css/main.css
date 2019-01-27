@@ -4,6 +4,20 @@
     .navbar-brand {
         display:none;
     }
+    .navCollapseAfter {
+        /* col-12 */
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+        font-family: montserrat, sans-serif;
+        font-size:2vw!important;
+        font-weight: 400;
+        font-style: normal;
+    }
     #coderBunkerSentence h1 {
         font-family: montserrat, sans-serif;
         font-weight: 700;
@@ -334,6 +348,20 @@
         -ms-flex: 0 0 33.333333%;
             flex: 0 0 33.333333%;
         max-width: 33.333333%;
+    }
+    .navCollapseAfter {
+        /* col-12 */
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+        font-family: montserrat, sans-serif;
+        font-size:4vw!important;
+        font-weight: 400;
+        font-style: normal;
     }
     .nav-item a .fa-facebook-f, .nav-item a .fa-github, .nav-item a .fa-linkedin, .nav-item .fa-weixin, .nav-item a .fa-medium, .nav-item a .fa-meetup {
         font-size: 5vw !important;
