@@ -1,10 +1,310 @@
+/* css for mobile-devices */
+@media only screen and (min-width:325px) and (max-width:768px) {
+    /* Header section */
+    #coderBunkerSentence h1 {
+        font-family: montserrat, sans-serif;
+        font-weight: 700;
+        font-style:normal;
+        margin-bottom:2rem;
+        line-height:8vw !important;
+        font-size:7vw;
+    }
+    /* we propose section */
+    /* Start community propose container */
+    #community-propose-container {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    #community-propose-container div {
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    /* end community propose container */
+    /* Start workplace propose container */
+    #workplace-propose-container {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #workplace-propose-container div{
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    /* end workplace propose container */
+    /* Start make a living propose container */
+    #makeliving-propose-container {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #makeliving-propose-container div{
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+
+    /* who are we section */
+
+    /* Start learner-content section */
+    #learner-image-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    #learner-text-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    /* Start freelancer-content section */
+    #freelancer-image-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    #freelancer-text-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    #freelancer-content {
+        display:none
+    }
+    #freelancer-mobile-content {
+        display:block !important;
+    }
+    /* Start entrepreneur-content section */
+    #entrepreneur-image-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    #entrepreneur-text-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    /* who are we section ended here */
+    /* what people are saying section*/
+    #people-left-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    #people-center-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top:15vh;
+
+    }
+    #people-right-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top:15vh;
+    }
+    /* what people are saying section ended here */
+    /* franchises section*/
+    #logo-footer-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+
+    }
+    #logo-footer-content span {
+        font-size:6vw;
+    }
+    #shanghai-franchise {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+
+    }
+    #shanghai-franchise-title {
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    #singapore-franchise {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+
+    }
+    #singapore-franchise-title {
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    #birmingham-franchise {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    #birmingham-franchise-title {
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    /* franchises section ended here */
+    /* footer social icons section */
+    #footer-social-icons {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    #footer-social-icons p {
+        font-size:3vw !important;
+    }
+    #footer-social-icons-container {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -ms-flex-direction: row;
+        flex-direction: row;
+
+    }
+    .nav-item a .fa-facebook-f, .nav-item a .fa-github, .nav-item a .fa-linkedin, .nav-item .fa-weixin, .nav-item a .fa-medium, .nav-item a .fa-meetup {
+        font-size: 5vw !important;
+    }
+    /* footer social icons section ended here */
+    /* copyright section */
+    #copyright p {
+        font-size:3.5vw;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    #go-to-top {
+        width: 8%;
+        height: auto;
+        margin-bottom:3vh;
+    }
+    /* copyright section ended here */
+}
+/* css for normal display */
+@media only screen and (max-width: 992px) {
+    #bubbles-container {
+        display:none
+    }
+    #coderBunkerSentence {
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+        max-width: 100%;
+        margin-right: auto !important;
+        margin-left: auto !important;
+          text-align: center !important;
+    }
+    .propose-container {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    }
+    .proposal-title {
+        font-size:1.4rem;
+    }
+    .people-content img {
+        width:70% !important;
+    }
+    .fa-facebook-f, .fa-linkedin, .fa-github, .fa-weixin, .fa-medium , .fa-meetup{
+        font-size: 2.3vw !important;
+    }
+    #join-us-button {
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+    }
+    .wechat-account {
+        font-size: 2.5vw !important;
+        font-family: montserrat, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left:0.5rem;
+    }
+}
+/* css for big displays */
+@media only screen and (min-width: 1500px) and (max-width:2100px) {
+
+    #learner-bubble span {
+        position:absolute;
+        top:39%;
+        left:12%;
+        font-size:0.7vw !important;
+    }
+    #freelancer-bubble span {
+        position:absolute;
+        top:41%;
+        left:10%;
+        font-size:0.7vw !important;
+    }
+
+}
+
 hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 2px solid #434769;
+    border-top: 1px solid #434769;
     margin: 1em 0;
     padding: 0; 
+}
+h1 {
+    font-size:3rem;
 }
 h4 {
     font-size:1.2rem;
@@ -13,11 +313,15 @@ h4 {
 .navbar-brand {
     color:white;
     font-family: montserrat, sans-serif;  
-    font-weight: 700;    
+    font-weight: 600;    
     font-style: normal;
     letter-spacing: 1px;
     
     
+}
+.navbar-brand:hover {
+    color:white;
+
 }
 .nav-item a {
     color:white !important;
@@ -28,23 +332,48 @@ h4 {
 .social-network-icons li {
     padding-left:1rem;
 }
-.nav-item a:hover {
-
-}
 
 header {
     color:white;
-    margin-bottom:9rem;
+}
+#header-content {
+    margin-top:9rem;
+}
+.wechat-account {
+    font-size: 1vw;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left:0.5rem;
 }
 #header-container {
     background-color:#003557 !important;
     color:white;
-    border-bottom-left-radius: 50% 20%;
-    border-bottom-right-radius: 50% 20%;
+    border-bottom-left-radius: 80% 10%;
+    border-bottom-right-radius: 80% 10%;
+    background-image:url('../images/bg.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:bottom;
+    min-height: 60rem;
   }
 }
 #coderBunkerSentence {
     background-color:#003557 !important;
+}
+#coderBunkerSentence h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style:normal;
+    margin-bottom:2rem;
+    line-height:4rem;
+}
+#coderBunkerSentence p {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    margin-bottom:2rem;
+
 }
 #coderBunkerSentence button {
     background-color:#e74c3c;
@@ -54,11 +383,13 @@ header {
     padding-left:2rem;
     padding-right:2rem;
     color:white !important;
-    font-family: montserrat, sans-serif;
+    font-family: montserrat, sans-serif !important;
     font-weight: 600;
-    border-radius: 10px;
+    border-radius: 7px;
 }
-
+#join-us-button:link {
+    text-decoration: none;
+}
 .proposal-title {
     font-family: montserrat, sans-serif;
     font-weight: 700;
@@ -95,17 +426,36 @@ p.proposal-text{
     font-weight: 800;
     font-style: normal;
 }
+.role-message h3{
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-bottom:0.7rem;
+}
 .role-message span {
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 .role-message h4 span.underline {
-    text-decoration: underline !important;
-    text-decoration-color: #003557 !important;
     font-family: montserrat, sans-serif;
     font-weight: 800;
     font-style: normal;
+    border-bottom: 2px solid #003557;
+    padding-bottom:3px;
+}
+.role-message h3 span.underline {
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    border-bottom: 2px solid #003557;
+    padding-bottom:3px;
+}
+.role-text {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 .read-more-button {
     background-color: white;
@@ -119,6 +469,7 @@ p.proposal-text{
     border-width: thin;
     border-color:black;
     font-style: normal;
+    cursor:pointer;
 }
 .role-image img {
     width:100%;
@@ -133,13 +484,20 @@ p.proposal-text{
 .role-container{
     margin-bottom:12rem;
 }
+#freelancer-mobile-content {
+    display:none;
+}
 #footer-container {
-    margin-top:6rem;
+    margin-top:15rem;
 }
 #footer-social-icons {
     color: #b5b5c8 !important;
     font-size:1.5vw;
 }
+#footer-social-icons nav ul li a{
+    color: #b5b5c8 !important;
+    font-size:1.5vw;
+}   
 #logo-footer {
     color:#e74c3c;
     font-family: montserrat, sans-serif;
@@ -186,11 +544,35 @@ p.proposal-text{
     font-style: normal;
     color: #b5b5c8;
 }
+.people-content img {
+    width:40%;
+}
+.people-name {
+    margin-top:0.5rem;
+    margin-bottom:2rem;
+    font-family: montserrat, sans-serif;  
+    font-weight: 300;    
+    font-style: normal;
 
+}
+.people-quote {
+    text-align:center;
+    font-family: montserrat, sans-serif;  
+    font-weight: 600;    
+    font-style: italic;
+    letter-spacing: 1px;
+    
+}
 /* Icons */
 .fa-handshake, .fa-money-check-alt, .fa-smile-wink {
     color:#e74c3c;
     font-size: 4vw;
+}
+.fa-facebook-f, .fa-github, .fa-linkedin, .fa-weixin, .fa-medium, .fa-meetup {
+    font-size: 1.6vw;
+}
+.fa-weixin {
+    cursor: pointer
 }
 /* Styles needed for menu effect */
 li {
@@ -198,9 +580,7 @@ li {
   display: table-cell; 
   position: relative; 
 }
-.nav-link:hover:after {
-}
-ul.navbar-nav .nav-item a:after {    
+#sectionNav .nav-item a:after {   
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -218,4 +598,133 @@ ul.navbar-nav .nav-item a:hover:after {
   width: 100%; 
   left: 0;
   text-shadow: 0 0 .65px #FFF, 0 0 .65px #FFF;
+}
+#sectionNav .nav-item a:hover:after { 
+  width: 100%; 
+  left: 0;
+  text-shadow: 0 0 .65px #FFF, 0 0 .65px #FFF;
+}
+.social-network-icons {
+    text-shadow:0 !important;
+}
+#go-to-top {
+    cursor: pointer;
+}
+/* bubbles*/
+/* general */
+#bubbles-container {
+    position:relative;
+}
+.bubble {
+    position:absolute;
+    font-family: montserrat, sans-serif;  
+    font-weight: 600;    
+    font-style: normal;
+    text-transform:uppercase;
+    cursor: pointer; 
+}
+/* entrepreneur bubble */
+#entrepreneur-bubble {
+    width: 9rem;
+    height: 9rem;
+    color: #003557;
+    background-color:#fcec64;
+    top:-6%;
+    left:5%;
+
+}
+#entrepreneur-bubble span {
+    position:absolute;
+    top:41%;
+    left:3%;
+}
+/* freelancer bubble */
+#freelancer-bubble {
+    width: 7rem;
+    height: 7rem;
+    color: #003557;
+    background-color:#fff;
+    right:0%;
+    top:-8%;
+
+}
+#freelancer-bubble span {
+    position:absolute;
+    top:41%;
+    left:10%;
+    font-size:0.9vw;
+}
+/* community bubble */
+#community-bubble {
+    width: 8rem;
+    height: 8rem;
+    color: #FFF;
+    background-color:#e74c3c;
+    bottom:50%;
+    left:25%;
+
+}
+#community-bubble span {
+    position:absolute;
+    top:41%;
+    left:9%;
+}
+/* investor bubble */
+#investor-bubble {
+    width: 6rem;
+    height: 6rem;
+    color: #FFF;
+    background-color:#f7941d;
+    bottom:60%;
+    left:-20%;
+
+}
+#investor-bubble span {
+    position:absolute;
+    top:37%;
+    left:6%;
+}
+/* learner bubble */
+#learner-bubble {
+    width: 5rem;
+    height: 5rem;
+    color: #FFF;
+    background-color:#4466c9;
+    bottom:60%;
+    right:-2%;
+
+}
+#learner-bubble span {
+    position:absolute;
+    top:39%;
+    left:12%;
+    font-size:0.9vw;
+}
+/* void bubble */
+#void-bubble {
+    width: 2rem;
+    height: 2rem;
+    color: #FFF;
+    background-color:#4466c9;
+    bottom:85%;
+    right:36%;
+    font-size:0.8vw;
+
+}
+#void-bubble span {
+    position:absolute;
+    top:39%;
+    left:12%;
+}
+#qrcode {
+    max-width: 50%;
+    height: auto;
+}
+#footer-social-icons p {
+    margin-top:2%;
+    margin-bottom:0;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-size:1vw;
 }
