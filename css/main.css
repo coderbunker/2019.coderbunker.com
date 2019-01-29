@@ -639,6 +639,11 @@ p.proposal-text{
 .learn-more-left {
 
 }
+.bold {
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
 .role-message h4{
     font-family: montserrat, sans-serif;
     font-weight: 800;
@@ -656,6 +661,13 @@ p.proposal-text{
     font-style: normal;
 }
 .role-message h4 span.underline {
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    border-bottom: 2px solid #003557;
+    padding-bottom:3px;
+}
+.underline {
     font-family: montserrat, sans-serif;
     font-weight: 800;
     font-style: normal;
@@ -1068,4 +1080,7 @@ h3 span.underline-page {
     font-style: normal;
     border-bottom: 2px solid #FFF;
     padding-bottom:3px;
+}
+.position-text {
+    margin-top:0;
 }
