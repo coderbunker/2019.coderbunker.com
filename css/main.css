@@ -1,5 +1,13 @@
 /* css for mobile-devices */
 @media only screen and (min-width:325px) and (max-width:768px) {
+    /* bridging the gap */
+    .colearning-color-content {
+        margin-top:-14% !important;
+        /* col-8 */
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
     /* services page */
     .swiper-slide {
         height:100%;
@@ -1091,4 +1099,58 @@ h3 span.underline-page {
 }
 .project-content-text, .project-content.image {
     margin-top:10%;
+}
+/* colearning page */
+
+#colearning-image-container{
+    background-image:url('http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/v1/775700/IMGP0921_qjuxou.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+    max-height:52vh;
+}
+.colearning-text-content {
+    color:#FFF;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1.5vw;
+    padding-top:7%;
+}
+.opacity-image-container {
+    background: rgba(0, 0, 0, 0.5);
+    min-height:52vh;
+
+}
+.colearning-color-content {
+    background: #ff5657;
+    color:#FFF;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top:15px;
+    margin-top:-3%;
+}
+.colearning-mentor-name {
+    margin-top:0.5rem;
+    margin-bottom:2rem;
+    font-family: montserrat, sans-serif;  
+    font-weight: 600;    
+    font-style: normal;
+    color:#ff5657;
+
+}
+#colearning-title {
+    color:#ff5657;
+
+}
+.colearning-hr {
+
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ff5657;
+    margin: 1em 0;
+    padding: 0; 
+
 }
