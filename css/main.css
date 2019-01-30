@@ -1084,3 +1084,11 @@ h3 span.underline-page {
 .position-text {
     margin-top:0;
 }
+/* project page */
+.project-image {
+    width:100%;
+    height:auto;
+}
+.project-content-text, .project-content.image {
+    margin-top:10%;
+}
