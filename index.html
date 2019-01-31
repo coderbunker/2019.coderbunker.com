@@ -68,7 +68,7 @@
                                 <li class="nav-item">
                                     <a id="events" class="nav-link scroll-link" href="#section-4">Events</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item"> 
                                     <a id="blog" class="nav-link scroll-link" href="#section-4">Blog</a>
                                 </li>
                                 <li class="nav-item">
@@ -441,6 +441,24 @@
             <script>
                 $("#join-us-button").click(function() {
                         gtag('event', 'join-us-button');
+                });
+                $(".fa-github").click(function() {
+                        gtag('event', 'github-button');
+                });
+                $(".fa-weixin").click(function() {
+                        gtag('event', 'wechat-button');
+                });
+                $(".fa-facebook-f").click(function() {
+                        gtag('event', 'facebook-button');
+                });
+                $(".fa-linkedin").click(function() {
+                        gtag('event', 'linkedin-button');
+                });
+                $(".fa-medium").click(function() {
+                        gtag('event', 'medium-button');
+                });
+                $(".fa-meetup").click(function() {
+                        gtag('event', 'meetup-button');
                 });
             </script>
 </body>
