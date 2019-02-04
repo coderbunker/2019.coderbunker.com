@@ -3,10 +3,22 @@
     /* bridging the gap */
     .colearning-color-content {
         margin-top:-14% !important;
+        font-size:4vw;
         /* col-8 */
-        -ms-flex: 0 0 83.333333%;
-        flex: 0 0 83.333333%;
-        max-width: 83.333333%;
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .colearning-text-content {
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .colearning-text-content p {
+        margin-top:10%;
+    }
+    .header-text {
+        font-size: 4vw;
     }
     /* services page */
     .swiper-slide {
