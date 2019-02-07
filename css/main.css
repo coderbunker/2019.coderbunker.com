@@ -1,6 +1,47 @@
 /* css for mobile-devices */
 @media only screen and (min-width:325px) and (max-width:768px) {
+    /* bridging the gap */
+    .colearning-color-content {
+        margin-top:-14% !important;
+        font-size:4vw;
+        /* col-8 */
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .colearning-text-content {
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .colearning-text-content p {
+        margin-top:10%;
+    }
+    .header-text {
+        font-size: 4vw;
+    }
+    /* services page */
+    .swiper-slide {
+        height:100%;
+    }
     /* Header section */
+    .navbar-brand {
+        display:none;
+    }
+    .navCollapseAfter {
+        /* col-12 */
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+        font-family: montserrat, sans-serif;
+        font-size:2vw!important;
+        font-weight: 400;
+        font-style: normal;
+    }
     #coderBunkerSentence h1 {
         font-family: montserrat, sans-serif;
         font-weight: 700;
@@ -83,6 +124,26 @@
         max-width: 100%;
 
     }
+    /* services page  */
+    .slides-content {
+        display:none;
+    }
+    .slides-mobile-content {
+        display:block !important;
+    }
+    .slides-image-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .slides-text-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    /* end services page */
     #freelancer-content {
         display:none
     }
@@ -219,8 +280,12 @@
 
     }
     .nav-item a .fa-facebook-f, .nav-item a .fa-github, .nav-item a .fa-linkedin, .nav-item .fa-weixin, .nav-item a .fa-medium, .nav-item a .fa-meetup {
-        font-size: 5vw !important;
+        font-size: 3vw !important;
     }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
     /* footer social icons section ended here */
     /* copyright section */
     #copyright p {
@@ -236,9 +301,135 @@
         margin-bottom:3vh;
     }
     /* copyright section ended here */
+
+    /* Section css */
+    .section-image {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .section-image img {
+        width:100%;
+        height:auto;
+    }
+    #section-info-container {
+        position:relative;
+        min-height:15% !important;
+    }
+    /* section page */
+
+    .section-title h4{
+        margin-top:10rem;
+        margin-bottom:5rem;
+        font-family: montserrat, sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+    .section-title h2{
+        margin-top:10rem;
+        margin-bottom:5rem;
+        font-family: montserrat, sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
+
+    .section-header-title {
+        margin-top:3rem;
+        font-family: montserrat, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size:8vw;
+        /* col-12 */
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .section-header-wave {
+        background-image:url('../images/section-bottom-title.jpg');
+        background-color:#5c83f3;
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:top;
+        min-height: 2rem;
+    }
+    #section-info-container {
+        position:relative;
+        min-height:50%;
+    }
+    .section-info-content {
+        background-color:#f3f3f3;
+        border-radius: 7px;
+        box-shadow: 0px 7px 10px 1px #ededee;
+        position:absolute;
+        font-family: montserrat, sans-serif;
+        font-weight: 400;
+        font-style:normal;
+    }
+    .section-info-content h4 {
+        font-weight: 600;
+        font-size:1.2vw;
+        margin-top:10%;
+        margin-bottom:10%;
+
+    }
+    #section-content h3, #section-content p, #section-content ul li{
+        font-family: montserrat, sans-serif !important;
+        font-style:normal;
+    }
+    #section-content h3 {
+        font-size:1.5vw;
+        font-weight:600;
+    }
+    #section-content p {
+        font-size:1vw;
+    }
+    
+    .section-info-content p {
+        font-size:0.9vw;
+        margin-bottom:10%;
+    }
+    .section-info-content img{
+        padding-top:20%;
+    }
+    #section-info-content-right {
+        position:absolute;
+        right:0%;
+        top:-20%;
+
+    }
+    #section-info-content-left {
+        position:absolute;
+        top:-20%;
+    }
+    .section-content-12 {
+        margin-top:10%;
+        font-family: montserrat, sans-serif;
+        font-style: normal;
+    }
+    .section-content-12 h2{
+        font-weight:600;
+        font-size:2vw;
+    }
+    .section-content-12 p {
+        font-size:1vw;
+    }
+    .section-image img{
+        width: 100%;
+        height: auto;
+    }
+
 }
 /* css for normal display */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1080px) {
+    /* header */
+    #top-menu {
+        font-size:1.3vw;
+    }
+    .navbar-brand {
+        font-size:1.5vw;
+    }
     #bubbles-container {
         display:none
     }
@@ -261,8 +452,8 @@
     .people-content img {
         width:70% !important;
     }
-    .fa-facebook-f, .fa-linkedin, .fa-github, .fa-weixin, .fa-medium , .fa-meetup{
-        font-size: 2.3vw !important;
+    .fa-facebook-f, .fa-linkedin, .fa-github, .fa-weixin, .fa-medium, .fa-meetup {
+        font-size: 2vw !important;
     }
     #join-us-button {
         margin-right: auto !important;
@@ -275,6 +466,11 @@
         font-weight: 400;
         font-style: normal;
         margin-left:0.5rem;
+    }
+    /* Section css */
+    #section-info-container {
+        position:relative;
+        min-height:35%;
     }
 }
 /* css for big displays */
@@ -293,6 +489,38 @@
         font-size:0.7vw !important;
     }
 
+}
+@media only screen and (max-width: 570px) {
+    #top-menu {
+        -ms-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .navCollapseAfter {
+        /* col-12 */
+        -ms-flex: 0 0 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        /* div and text centered */
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center !important;
+        font-family: montserrat, sans-serif;
+        font-size:4vw!important;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .nav-item a .fa-facebook-f, .nav-item a .fa-github, .nav-item a .fa-linkedin, .nav-item .fa-weixin, .nav-item a .fa-medium, .nav-item a .fa-meetup {
+        font-size: 5vw !important;
+    }
+    #header-social-icons-container {
+        /* col-8 */
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+        float: right !important;
+
+    }
 }
 
 hr {
@@ -338,6 +566,16 @@ header {
 }
 #header-content {
     margin-top:9rem;
+}
+#section-header-container {
+    background-color:#003557 !important;
+    color:white;
+    background-image:url('../images/bg-section.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:bottom;
+    min-height: 5rem;
+
 }
 .wechat-account {
     font-size: 1vw;
@@ -421,6 +659,11 @@ p.proposal-text{
 .learn-more-left {
 
 }
+.bold {
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
 .role-message h4{
     font-family: montserrat, sans-serif;
     font-weight: 800;
@@ -438,6 +681,13 @@ p.proposal-text{
     font-style: normal;
 }
 .role-message h4 span.underline {
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    border-bottom: 2px solid #003557;
+    padding-bottom:3px;
+}
+.underline {
     font-family: montserrat, sans-serif;
     font-weight: 800;
     font-style: normal;
@@ -485,6 +735,12 @@ p.proposal-text{
     margin-bottom:12rem;
 }
 #freelancer-mobile-content {
+    display:none;
+}
+/* services page */
+.slides-content {
+}
+.slides-mobile-content {
     display:none;
 }
 #footer-container {
@@ -573,6 +829,9 @@ p.proposal-text{
 }
 .fa-weixin {
     cursor: pointer
+}
+#header-social-icons {
+    margin-top:15px;
 }
 /* Styles needed for menu effect */
 li {
@@ -711,6 +970,95 @@ li {
     top:39%;
     left:12%;
 }
+/* section css */
+
+.section-header-title {
+    margin-top:3rem;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* col-8 */
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    text-align: center !important;
+}
+.section-header-wave {
+    background-image:url('../images/section-bottom-title.jpg');
+    background-color:#5c83f3;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:top;
+    min-height: 2rem;
+}
+#section-info-container {
+    position:relative;
+    min-height:50%;
+}
+.section-info-content {
+    background-color:#f3f3f3;
+    border-radius: 7px;
+    box-shadow: 0px 7px 10px 1px #ededee;
+    position:absolute;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style:normal;
+}
+.section-info-content h4 {
+    font-weight: 600;
+    font-size:1.2vw;
+    margin-top:10%;
+    margin-bottom:10%;
+
+}
+#section-content h3, #section-content p, #section-content ul li{
+    font-family: montserrat, sans-serif !important;
+    font-style:normal;
+}
+#section-content h3 {
+    font-size:1.5vw;
+    font-weight:600;
+}
+#section-content p {
+    font-size:1vw;
+}
+  
+.section-info-content p {
+    font-size:0.9vw;
+    margin-bottom:10%;
+}
+.section-info-content img{
+    padding-top:20%;
+}
+#section-info-content-right {
+    position:absolute;
+    right:0%;
+    top:-20%;
+
+}
+#section-info-content-left {
+    position:absolute;
+    top:-20%;
+}
+.section-content-12 {
+    margin-top:10%;
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+}
+.section-content-12 h2{
+    font-weight:600;
+    font-size:2vw;
+}
+.section-content-12 p {
+    font-size:1vw;
+}
+.section-image img{
+    width: 100%;
+    height: auto;
+}
+
 #qrcode {
     max-width: 50%;
     height: auto;
@@ -722,4 +1070,99 @@ li {
     font-weight: 400;
     font-style:normal;
     font-size:1vw;
+}
+
+/* page styles */
+.page-title {
+    margin-bottom:10%;
+}
+
+  .swiper-slide {
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+h3 span.underline-page {
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    border-bottom: 2px solid #FFF;
+    padding-bottom:3px;
+}
+.position-text {
+    margin-top:0;
+}
+/* project page */
+.project-image {
+    width:100%;
+    height:auto;
+}
+.project-content-text, .project-content.image {
+    margin-top:10%;
+}
+/* colearning page */
+
+#colearning-image-container{
+    background-image:url('http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/v1/775700/IMGP0921_qjuxou.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+    max-height:52vh;
+}
+.colearning-text-content {
+    color:#FFF;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1.5vw;
+    padding-top:7%;
+}
+.opacity-image-container {
+    background: rgba(0, 0, 0, 0.5);
+    min-height:52vh;
+
+}
+.colearning-color-content {
+    background: #ff5657;
+    color:#FFF;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top:15px;
+    margin-top:-3%;
+}
+.colearning-mentor-name {
+    margin-top:0.5rem;
+    margin-bottom:2rem;
+    font-family: montserrat, sans-serif;  
+    font-weight: 600;    
+    font-style: normal;
+    color:#ff5657;
+
+}
+#colearning-title {
+    color:#ff5657;
+
+}
+.colearning-hr {
+
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ff5657;
+    margin: 1em 0;
+    padding: 0; 
+
 }
