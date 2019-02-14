@@ -1,5 +1,11 @@
 /* css for mobile-devices */
 @media only screen and (min-width:325px) and (max-width:768px) {
+
+    /* blog page */
+    .blog-post {
+        margin-bottom:15% !important;
+        color:white !important; 
+    }
     /* bridging the gap */
     .colearning-color-content {
         margin-top:-14% !important;
@@ -1165,4 +1171,16 @@ h3 span.underline-page {
     margin: 1em 0;
     padding: 0; 
 
+}
+/* blog page */
+.blog-post {
+    margin-bottom:5%;
+    color:white !important; 
+}
+.blog-post .blog-post-title a{
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    
 }
