@@ -23,7 +23,7 @@
 .project-image {
     display:none !important;
 }
-.project-image-mobile {
+.project-content-image .project-image-mobile {
     width:70%;
     height:auto;
     display:block !important;
