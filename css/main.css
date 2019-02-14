@@ -1,5 +1,33 @@
 /* css for mobile-devices */
 @media only screen and (min-width:325px) and (max-width:768px) {
+    /* projects page */
+
+.project-content-image {
+    /* col-12 */
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    text-align: center !important;
+    
+}
+.project-content-text {
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    text-align: center !important;
+
+}
+.project-content-text ul li{
+    word-break: break-all !important;
+}
+.project-image {
+    display:none !important;
+}
+.project-image-mobile {
+    width:70%;
+    height:auto;
+    display:block !important;
+}
 
     /* blog page */
     .blog-post {
@@ -1114,6 +1142,10 @@ h3 span.underline-page {
 .project-image {
     width:100%;
     height:auto;
+    display:block;
+}
+.project-image-mobile {
+    display:none;
 }
 .project-content-text, .project-content.image {
     margin-top:10%;
@@ -1184,3 +1216,4 @@ h3 span.underline-page {
     color:white;
     
 }
+/* projects section */
