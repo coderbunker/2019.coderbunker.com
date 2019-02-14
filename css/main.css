@@ -1145,7 +1145,7 @@ h3 span.underline-page {
     display:block;
 }
 .project-image-mobile {
-    display:none;
+    display:none !important;
 }
 .project-content-text, .project-content.image {
     margin-top:10%;
