@@ -1,5 +1,6 @@
 /* css for mobile-devices */
 @media only screen and (min-width:325px) and (max-width:768px) {
+ 
     /* projects page */
 
 .project-content-image {
@@ -455,8 +456,11 @@
     }
 
 }
+
+
 /* css for normal display */
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1080px) { 
+
     /* header */
     #top-menu {
         font-size:1.3vw;
@@ -507,6 +511,7 @@
         min-height:35%;
     }
 }
+
 /* css for big displays */
 @media only screen and (min-width: 1500px) and (max-width:2100px) {
 
@@ -1217,3 +1222,159 @@ h3 span.underline-page {
     
 }
 /* projects section */
+
+ /*New added sunying*/
+@media only screen and (min-width:325px) and (max-width:768px) {
+
+ .main * + *{
+    margin-top: 1.5em;
+} 
+.main{
+   margin: 1.5em auto;
+    width:80%;
+    
+}
+.flex-onboarding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.item-onboarding{
+    background-color:#f3f4f5;
+    padding: 1.5em;
+    border-radius: 0.8em;
+}
+
+button{
+    border-radius: 0.5em;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 0.5em;
+}
+
+.readme{
+    margin-top: 1.5em;
+}
+.clientinfo,
+.item-client{
+    background-color:#f3f4f5;
+    padding: 1.5em 0.8em;
+    border-radius: 0.8em;
+}
+
+
+.clientlogo{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;  
+}
+.clientlogo .logo{
+    flex: 1;
+    
+}
+.logo{
+    margin-top: 0;
+   text-align: center;
+}
+.logo img{
+    width: 30vw;
+}
+
+.item-client{
+    text-align: center;
+}
+.clientContact{
+    display: flex;
+    }
+.clientContact a{
+    flex: 1;
+    text-align: center;
+}
+}
+
+@media only screen and (min-width:768px) { 
+.main * + *{
+    margin-top: 1.5em;
+} 
+.main{
+   margin: 1.5em auto;
+    width:80%;
+    
+}
+.flex-onboarding{
+    display: flex;
+
+}
+.item-onboarding{
+    flex: 1;
+    background-color:#f3f4f5;
+    padding: 1.5em 0.8em;
+    border-radius: 0.8em;
+    margin-top: 0;
+    display:flex ;
+flex-direction: column;
+align-items: center;
+}
+.item-onboarding p{
+    align-self: flex-start;
+}
+.flex-onboarding * + *{
+    margin-left: 1.5em;
+}
+.item-item{
+    flex: 1;
+    margin-top: 0;
+   
+}
+
+.readme{
+    margin-top: 1.5em;
+}
+
+.clientinfo,
+.item-client{
+    background-color:#f3f4f5;
+    padding: 1.5em 0.8em;
+    border-radius: 0.8em;
+}
+
+.flex-client{
+    display: flex;
+}
+.item-client + .item-client{
+    margin-left: 1.5em;
+    margin-top: 0;
+}
+.item-client{
+    flex: 1;
+    padding: 1.5em 0.8em;
+    text-align: center;
+}
+.clientlogo{
+    display: flex;  
+    align-items: center;  
+}
+.clientlogo .logo{
+    flex: 1;
+    
+}
+.logo{
+    margin-top: 0;
+    margin-left: 1.5em;
+   text-align: center;
+}
+.logo img{
+    width: 10vw;
+}
+.clientContact{
+display: flex;
+}
+.clientContact a{
+    flex: 1;
+    text-align: center;
+
+}
+
+/*End new added sunying*/
