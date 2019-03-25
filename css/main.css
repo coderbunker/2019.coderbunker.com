@@ -1224,157 +1224,339 @@ h3 span.underline-page {
 /* projects section */
 
  /*New added sunying*/
-@media only screen and (min-width:325px) and (max-width:768px) {
-
- .main * + *{
-    margin-top: 1.5em;
-} 
-.main{
-   margin: 1.5em auto;
-    width:80%;
+ @media only screen and (max-width:799px){
+    .wrapperFC {
+        margin: 2vw;
+        
+      }
+      
+      .mainFC,
+       {
+       
+        padding: 5px;
+        background-color: #fff;
+      }
+      
+      .mainFC {
+        width: 100%;
+        height: 200vh;
+        margin-top: 5em;
+      }
     
-}
-.flex-onboarding{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-.item-onboarding{
-    background-color:#f3f4f5;
-    padding: 1.5em;
-    border-radius: 0.8em;
-}
-
-button{
-    border-radius: 0.5em;
-    color: white;
-    background-color: red;
-    border: none;
-    padding: 0.5em;
-}
-
-.readme{
-    margin-top: 1.5em;
-}
-.clientinfo,
-.item-client{
-    background-color:#f3f4f5;
-    padding: 1.5em 0.8em;
-    border-radius: 0.8em;
-}
-
-
-.clientlogo{
-    display: flex; 
-    flex-direction: column; 
-    align-items: center;  
-}
-.clientlogo .logo{
-    flex: 1;
-    
-}
-.logo{
-    margin-top: 0;
-   text-align: center;
-}
-.logo img{
-    width: 30vw;
-}
-
-.item-client{
-    text-align: center;
-}
-.clientContact{
-    display: flex;
+      .mainF,
+    .mainC{
+        width:100%;
+       
     }
-.clientContact a{
-    flex: 1;
-    text-align: center;
-}
-}
+    .sidebarFC{
+        display: none;
+    }
+    .swiper-father{
+        width:100%;
+        height:50vh;
+        
+        position:relative;
+    }  
+    .swiper-container{
+       
+        width:;
+        height:50vh;
+    }
+    .swiper-slide{
+        height:50vh;
+        background: #003557;
+        display: flex;
+        justify-content: space-between;
+    }
+    .swiper-slide .text{
+       margin: auto ;
+       text-align: center;
+        color: white;
+    }
+    .swiper-slide img{
+        display: none;
+    }
+    .mainC,
+    .client-gallery,
+    #RBContract,
+    #WWCD{
+        margin-top: 5em;
+    }
+    .client-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 0.5em;
+    }
+    .client-gallery img{
+        width: 20vw;
+    }
+    .client-gallery .logo{
+        margin: auto;
+    }
+    #RBContract img,
+    #WWCD img{
+        display: none;
+       
+    }
+    #RBContract,
+    #WWCD{
+        text-align: center;
+    }
+    .freelancer-wraper,
+    .client-wraper{
+        text-align: center;
+    }
+ }
 
-@media only screen and (min-width:768px) { 
-.main * + *{
-    margin-top: 1.5em;
-} 
-.main{
-   margin: 1.5em auto;
-    width:80%;
-    
-}
-.flex-onboarding{
+
+ @media only screen and (min-width: 799px) and (max-width:1080px) {
+ .wrapperFC {
     display: flex;
+    justify-content: space-between;
+    margin:2vw;
+  }
+  
+  .mainFC,
+  .sidebarFC {
+   
+    padding: 5px;
+    background-color: #fff;
+  }
+  
+  .mainFC {
+    width: 70%;
+    height: 300vh;
+  }
 
-}
-.item-onboarding{
-    flex: 1;
-    background-color:#f3f4f5;
-    padding: 1.5em 0.8em;
-    border-radius: 0.8em;
-    margin-top: 0;
-    display:flex ;
-flex-direction: column;
-align-items: center;
-}
-.item-onboarding p{
-    align-self: flex-start;
-}
-.flex-onboarding * + *{
-    margin-left: 1.5em;
-}
-.item-item{
-    flex: 1;
-    margin-top: 0;
+  .mainF,
+.mainC{
+    width:100%;
    
 }
-
-.readme{
-    margin-top: 1.5em;
-}
-
-.clientinfo,
-.item-client{
-    background-color:#f3f4f5;
-    padding: 1.5em 0.8em;
-    border-radius: 0.8em;
-}
-
-.flex-client{
-    display: flex;
-}
-.item-client + .item-client{
-    margin-left: 1.5em;
-    margin-top: 0;
-}
-.item-client{
-    flex: 1;
-    padding: 1.5em 0.8em;
-    text-align: center;
-}
-.clientlogo{
-    display: flex;  
-    align-items: center;  
-}
-.clientlogo .logo{
-    flex: 1;
+  .sidebarFC {
     
+    width: 25%;
+    height: 60vh;
+    display: flex;
+    flex-direction:column;
+  }
+  .sidebarFC {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+ .sidebarFC a{
+     display: block;
+     text-decoration: none;
+     color: darkgray;
+     padding-left: .5em;
+     margin:.3em 0;
+ }
+ .sidebarFC .sidebarTitle{
+     padding-left: 0;
+ }
+ .sidebar a:link{
+    color: black;
 }
-.logo{
-    margin-top: 0;
-    margin-left: 1.5em;
+ .sidebar a:visited{
+    color: black;
+}
+ .sidebarFC a:hover{
+     color: black;
+ }
+.sidebarFC a:active{
+    color: black;
+}
+
+.swiper-father{
+    width:100%;
+    height:50vh;
+    
+    position:relative;
+}  
+.swiper-container{
+   
+    width:calc(100% - 5em);
+    height:50vh;
+}
+.swiper-slide{
+    height:50vh;
+    background: #003557;
+    display: ;
+   
+}
+.swiper-slide .text{
+    display: ;
    text-align: center;
+    color: white;
 }
-.logo img{
-    width: 10vw;
+.wrapperFC,
+.client-wraper,
+.client-gallery,
+#RBContract,
+#WWCD{
+    margin-top: 5em;
 }
-.clientContact{
-display: flex;
+.swiper-slide img{
+    display: none;
+   
 }
-.clientContact a{
-    flex: 1;
+.client-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0.5em;
+}
+.client-gallery img{
+    width: 8em;
+}
+.client-gallery .logo{
+    margin: auto;
+}
+#RBContract,
+#WWCD{
+    display: flex;
+    justify-content: space-between;
+}
+#RBContract img,
+#WWCD img{
+    width: 48%;
+}
+.RBContract-text,
+.WWCD-text{
+    width: 48%;
+}
+.freelancer-wraper,
+.client-wraper{
     text-align: center;
-
 }
+ }
 
+ @media only screen and (min-width: 1080px) {
+    .wrapperFC {
+       display: flex;
+       justify-content: space-between;
+       margin: 2vw;
+     }
+     
+     .mainFC,
+     .sidebarFC {
+      
+       padding: 5px;
+       background-color: #fff;
+     }
+     
+     .mainFC {
+       width: 70%;
+       height: 300vh;
+     }
+   
+     .mainF,
+   .mainC{
+       width:100%;
+      
+   }
+     .sidebarFC {
+       
+       width: 25%;
+       height: 60vh;
+       display: flex;
+       flex-direction:column;
+     }
+     .sidebarFC {
+       position: -webkit-sticky;
+       position: sticky;
+       top: 0;
+     }
+    .sidebarFC a{
+        display: block;
+        text-decoration: none;
+        color: darkgray;
+        padding-left: .5em;
+        margin:.3em 0;
+    }
+    .sidebarFC .sidebarTitle{
+        padding-left: 0;
+    }
+    .sidebar a:link{
+       color: black;
+   }
+    .sidebar a:visited{
+       color: black;
+   }
+    .sidebarFC a:hover{
+        color: black;
+    }
+   .sidebarFC a:active{
+       color: black;
+   }
+   
+   .swiper-father{
+       width:100%;
+       height:50vh;
+       
+       position:relative;
+   }  
+   .swiper-container{
+      
+       width:calc(100% - 5em);
+       height:50vh;
+   }
+   .swiper-slide{
+       height:50vh;
+       background: #003557;
+       display: flex;
+       justify-content: space-between;
+   }
+   .swiper-slide .text{
+       display: flex;
+       flex-direction: column;
+      margin-left: 1em;
+       margin-top: -10em;
+       color: white;
+   }
+   .swiper-slide img{
+       display: block;
+       height:50vh;
+       width:60%;
+   }
+   .client-gallery{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr;
+       grid-gap: 0.5em;
+   }
+   .client-gallery img{
+       width: 8em;
+   }
+   .client-gallery .logo{
+       margin: auto;
+   }
+   
+   #RBContract,
+#WWCD{
+    display: flex;
+    justify-content: space-between;
+}
+#RBContract img,
+#WWCD img{
+    width: 48%;
+}
+.RBContract-text,
+.WWCD-text{
+    width: 48%;
+}
+   .freelancer-wraper,
+   .client-wraper{
+       text-align: center;
+   }
+   .wrapperFC,
+.client-wraper,
+.client-gallery,
+#RBContract,
+#WWCD{
+    margin-top: 5em;
+}
+    }
 /*End new added sunying*/
