@@ -1239,7 +1239,7 @@ h3 span.underline-page {
       
       .mainFC {
         width: 100%;
-        height: 200vh;
+        height: 180vh;
         margin-top: 5em;
       }
     
@@ -1326,7 +1326,7 @@ h3 span.underline-page {
   
   .mainFC {
     width: 70%;
-    height: 300vh;
+    height: 180vh;
   }
 
   .mainF,
@@ -1422,6 +1422,8 @@ h3 span.underline-page {
 #RBContract img,
 #WWCD img{
     width: 48%;
+    height: 30vh;
+   
 }
 .RBContract-text,
 .WWCD-text{
@@ -1449,7 +1451,7 @@ h3 span.underline-page {
      
      .mainFC {
        width: 70%;
-       height: 300vh;
+       height: 250vh;
      }
    
      .mainF,
@@ -1542,6 +1544,7 @@ h3 span.underline-page {
 #RBContract img,
 #WWCD img{
     width: 48%;
+    height: 40vh;
 }
 .RBContract-text,
 .WWCD-text{
