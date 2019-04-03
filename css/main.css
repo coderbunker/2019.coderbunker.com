@@ -1,5 +1,379 @@
+/*start sunying code*/
+/*no sidebar, no picture in slide*/
+@media only screen and  (max-width:992px) {
+   /*sidebar-freelancer-client*/
+   #sticky-sidebar{
+    display: none;
+}
+ /*start freelancer part*/
+.swiper-father{
+    width:100%;
+    height:40vh;
+    position:relative;
+    margin-top: 5rem;
+}  
+.swiper-container{
+    width:;
+    height:40vh;
+}
+.swiper-slide{
+    height:40vh;
+    padding: 0 4rem;
+    background: ;
+    display: flex;
+    justify-content: space-between;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide .text{
+   margin: auto ;
+   text-align: center;
+   color: ;
+}
+.swiper-slide img{
+    display: none;
+    width: 40%;
+    height: auto;
+}
+.swiper-slide h2{
+    margin-top:;
+    margin-bottom:;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.swiper-button-prev,
+.swiper-button-next{
+    outline: ;
+}
+/*end freelancer part*/
+
+ /*content*/
+ .bodyContent-text{
+     margin-top:0.5rem;
+     font-family: lato, sans-serif;
+     font-weight:400;
+     font-style:normal;
+     text-align: center; 
+ }
+ #community-end img,
+ #signup-end img{
+     margin-top: 2rem;
+ }
+ /*client gallery*/
+ .client-gallery{
+     margin-top: 10rem;
+ }
+ .client-gallery img{
+     display: block;
+     width: 20vw;
+     max-width: 80px;
+     height: 5vh;
+     min-height:30px; 
+     margin: auto;
+ }
+ .client-gallery .logo{
+     margin: 0.5rem auto;
+ }
+ 
+ /*what people are saying*/
+ .people-content img {
+     width:40%;
+     margin-top: 2rem;
+ }
+ .people-name {
+     margin-top:0.5rem;
+     margin-bottom:2rem;
+     font-family: montserrat, sans-serif;  
+     font-weight: 300;    
+     font-style: normal;
+
+ }
+ .people-quote {
+     text-align:center;
+     font-family: montserrat, sans-serif;  
+     font-weight: 600;    
+     font-style: italic;
+     letter-spacing: 1px;
+ }
+}
+
+/*sidebar, no picture in slide*/
+@media only screen and  (min-width:992px) and (max-width:1200px) {
+/*start freelancer part*/
+.swiper-father{
+    width:100%;
+    height:40vh;
+    position:relative;
+    margin-top: 5rem;
+}  
+.swiper-container{
+    width:;
+    height:40vh;
+}
+.swiper-slide{
+    height:40vh;
+    padding: 0 4rem;
+    background: ;
+    display: flex;
+    justify-content: space-between;
+     /* Center slide text vertically */
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+}
+.swiper-slide .text{
+   margin: auto ;
+   text-align: center;
+   color: ;
+}
+.swiper-slide img{
+    display: none;
+    width: 40%;
+    height: auto;
+}
+.swiper-slide h2{
+    margin-top:;
+    margin-bottom:;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+/*end freelancer part*/
+/*content*/
+.bodyContent-text{
+    margin-top:0.5rem;
+    font-family: lato, sans-serif;
+    font-weight:400;
+    font-style:normal;
+    text-align: center; 
+}
+#community-end .bodyContent-text,
+#signup-end .bodyContent-text{
+    text-align: start;
+    margin-top: 0;
+}
+
+/*client gallery*/
+.client-gallery{
+    margin-top: 10rem;
+}
+.client-gallery img{
+    display: block;
+    width: 20vw;
+    max-width: 80px;
+    height: 5vh;
+    min-height:30px; 
+    margin: auto;
+}
+.client-gallery .logo{
+    margin: 0.5rem auto;
+}
+
+/*what people are saying*/
+.people-content img {
+    width:40%;
+    margin-top: 2rem;
+}
+.people-name {
+    margin-top:0.5rem;
+    margin-bottom:2rem;
+    font-family: montserrat, sans-serif;  
+    font-weight: 300;    
+    font-style: normal;
+
+}
+.people-quote {
+    text-align:center;
+    font-family: montserrat, sans-serif;  
+    font-weight: 600;    
+    font-style: italic;
+    letter-spacing: 1px;
+}
+/*sidebar*/
+.sidebar-freelancer-client a{
+    display: block;
+    text-decoration: none;
+    color: darkgray;
+    padding-left: .5em;
+    margin:.3em 0;
+}
+.sidebar-freelancer-client .sidebar-title{
+    padding-left: 0;
+}
+.sidebar-freelancer-client {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-left: -2em;
+}
+.sidebar-freelancer-client a:link{
+   color: ;
+}
+.sidebar-freelancer-client a:visited{
+   color: ;
+}
+.sidebar-freelancer-client a:hover{
+    color: black;
+}
+.sidebar-freelancer-client a:active{
+   color: ;
+}
+}
+
+/* sidebar, picture in slide*/
+@media only screen and  (min-width:1200px) {
+/*start freelancer part*/
+.swiper-father{
+    width:100%;
+    height:40vh;
+    position:relative;
+    margin-top: 5rem;
+}  
+.swiper-container{
+    width:;
+    height:40vh;
+}
+.swiper-slide{
+    height:40vh;
+    padding: 0 4rem;
+    background: ;
+    display: flex;
+    justify-content: space-between;
+     /* Center slide text vertically */
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+}
+.swiper-slide .text{
+   margin: auto ;
+   text-align: center;
+   color: ;
+}
+.swiper-slide img{
+    display: ;
+    width:40%;
+    height: auto;
+}
+.swiper-slide h2{
+    margin-top:;
+    margin-bottom:;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+/*end freelancer part*/
+/*content*/
+.bodyContent-text{
+    margin-top:0.5rem;
+    font-family: lato, sans-serif;
+    font-weight:400;
+    font-style:normal;
+    text-align: center; 
+}
+#community-end .bodyContent-text,
+#signup-end .bodyContent-text{
+    text-align: start;
+    margin-top: 0;
+}
+
+/*client gallery*/
+.client-gallery{
+    margin-top: 10rem;
+}
+.client-gallery img{
+    display: block;
+    width: 20vw;
+    max-width: 80px;
+    height: 5vh;
+    min-height:30px; 
+    margin: auto;
+}
+.client-gallery .logo{
+    margin: 0.5rem auto;
+}
+
+/*what people are saying*/
+.people-content img {
+    width:40%;
+    margin-top: 2rem;
+}
+.people-name {
+    margin-top:0.5rem;
+    margin-bottom:2rem;
+    font-family: montserrat, sans-serif;  
+    font-weight: 300;    
+    font-style: normal;
+
+}
+.people-quote {
+    text-align:center;
+    font-family: montserrat, sans-serif;  
+    font-weight: 600;    
+    font-style: italic;
+    letter-spacing: 1px;
+}
+/*sidebar*/
+.sidebar-freelancer-client a{
+    display: block;
+    text-decoration: none;
+    color: darkgray;
+    padding-left: .5em;
+    margin:.3em 0;
+}
+.sidebar-freelancer-client .sidebar-title{
+    padding-left: 0;
+}
+.sidebar-freelancer-client {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-left: -4em;
+}
+.sidebar-freelancer-client a:link{
+   color: ;
+}
+.sidebar-freelancer-client a:visited{
+   color: ;
+}
+.sidebar-freelancer-client a:hover{
+    color: black;
+}
+.sidebar-freelancer-client a:active{
+   color: ;
+}
+}
+/*end sunying code*/
+
 /* css for mobile-devices */
-@media only screen and (min-width:325px) and (max-width:768px) {
+@media only screen and  (max-width:768px) {
  
     /* projects page */
 
@@ -59,6 +433,25 @@
     .swiper-slide {
         height:100%;
     }
+    .slides-content {
+        display:none;
+    }
+    .slides-mobile-content {
+        display:block !important;
+    }
+    .slides-image-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .slides-text-content {
+        /* col-12 */
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    /* end services page */
     /* Header section */
     .navbar-brand {
         display:none;
@@ -85,146 +478,10 @@
         line-height:8vw !important;
         font-size:7vw;
     }
-    /* we propose section */
-    /* Start community propose container */
-    #community-propose-container {
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
+ 
 
-    }
-    #community-propose-container div {
-        /* div and text centered */
-        margin-right: auto !important;
-        margin-left: auto !important;
-        text-align: center !important;
-    }
-    /* end community propose container */
-    /* Start workplace propose container */
-    #workplace-propose-container {
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    #workplace-propose-container div{
-        /* div and text centered */
-        margin-right: auto !important;
-        margin-left: auto !important;
-        text-align: center !important;
-    }
-    /* end workplace propose container */
-    /* Start make a living propose container */
-    #makeliving-propose-container {
-        /* col-12 */
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    #makeliving-propose-container div{
-        /* div and text centered */
-        margin-right: auto !important;
-        margin-left: auto !important;
-        text-align: center !important;
-    }
 
-    /* who are we section */
-
-    /* Start learner-content section */
-    #learner-image-content {
-        /* col-12 */
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-
-    }
-    #learner-text-content {
-        /* col-12 */
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-
-    }
-    /* Start freelancer-content section */
-    #freelancer-image-content {
-        /* col-12 */
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-
-    }
-    #freelancer-text-content {
-        /* col-12 */
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-
-    }
-    /* services page  */
-    .slides-content {
-        display:none;
-    }
-    .slides-mobile-content {
-        display:block !important;
-    }
-    .slides-image-content {
-        /* col-12 */
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .slides-text-content {
-        /* col-12 */
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    /* end services page */
-    #freelancer-content {
-        display:none
-    }
-    #freelancer-mobile-content {
-        display:block !important;
-    }
-    /* Start entrepreneur-content section */
-    #entrepreneur-image-content {
-        /* col-12 */
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-
-    }
-    #entrepreneur-text-content {
-        /* col-12 */
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-
-    }
-    /* who are we section ended here */
-    /* what people are saying section*/
-    #people-left-content {
-        /* col-12 */
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-
-    }
-    #people-center-content {
-        /* col-12 */
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-        margin-top:15vh;
-
-    }
-    #people-right-content {
-        /* col-12 */
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-        margin-top:15vh;
-    }
-    /* what people are saying section ended here */
+   
     /* franchises section*/
     #logo-footer-content {
         /* col-12 */
@@ -479,6 +736,7 @@
         margin-left: auto !important;
           text-align: center !important;
     }
+    /*we propose section*/
     .propose-container {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
@@ -487,9 +745,11 @@
     .proposal-title {
         font-size:1.4rem;
     }
+    /*what people are saying*/
     .people-content img {
         width:70% !important;
     }
+
     .fa-facebook-f, .fa-linkedin, .fa-github, .fa-weixin, .fa-medium, .fa-meetup {
         font-size: 2vw !important;
     }
@@ -667,6 +927,7 @@ header {
 #join-us-button:link {
     text-decoration: none;
 }
+/*we propose section*/
 .proposal-title {
     font-family: montserrat, sans-serif;
     font-weight: 700;
@@ -678,6 +939,7 @@ p.proposal-text{
     font-weight:400;
     font-style:normal;
 }
+
 .section-title h4{
     margin-top:10rem;
     margin-bottom:5rem;
@@ -703,6 +965,7 @@ p.proposal-text{
     font-weight: 800;
     font-style: normal;
 }
+/*who are we*/
 .role-message h4{
     font-family: montserrat, sans-serif;
     font-weight: 800;
@@ -783,7 +1046,7 @@ p.proposal-text{
     display:none;
 }
 #footer-container {
-    margin-top:15rem;
+    margin-top: rem;
 }
 #footer-social-icons {
     color: #b5b5c8 !important;
@@ -839,25 +1102,7 @@ p.proposal-text{
     font-style: normal;
     color: #b5b5c8;
 }
-.people-content img {
-    width:40%;
-}
-.people-name {
-    margin-top:0.5rem;
-    margin-bottom:2rem;
-    font-family: montserrat, sans-serif;  
-    font-weight: 300;    
-    font-style: normal;
 
-}
-.people-quote {
-    text-align:center;
-    font-family: montserrat, sans-serif;  
-    font-weight: 600;    
-    font-style: italic;
-    letter-spacing: 1px;
-    
-}
 /* Icons */
 .fa-handshake, .fa-money-check-alt, .fa-smile-wink {
     color:#e74c3c;
@@ -1223,343 +1468,4 @@ h3 span.underline-page {
 }
 /* projects section */
 
- /*New added sunying*/
- @media only screen and (max-width:799px){
-    .wrapperFC {
-        margin: 2vw;
-        
-      }
-      
-      .mainFC,
-       {
-       
-        padding: 5px;
-        background-color: #fff;
-      }
-      
-      .mainFC {
-        width: 100%;
-        height: 180vh;
-        margin-top: 5em;
-      }
-    
-      .mainF,
-    .mainC{
-        width:100%;
-       
-    }
-    .sidebarFC{
-        display: none;
-    }
-    .swiper-father{
-        width:100%;
-        height:50vh;
-        
-        position:relative;
-    }  
-    .swiper-container{
-       
-        width:;
-        height:50vh;
-    }
-    .swiper-slide{
-        height:50vh;
-        background: #003557;
-        display: flex;
-        justify-content: space-between;
-    }
-    .swiper-slide .text{
-       margin: auto ;
-       text-align: center;
-        color: white;
-    }
-    .swiper-slide img{
-        display: none;
-    }
-    .mainC,
-    .client-gallery,
-    #RBContract,
-    #WWCD{
-        margin-top: 5em;
-    }
-    .client-gallery{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 0.5em;
-    }
-    .client-gallery img{
-        width: 20vw;
-    }
-    .client-gallery .logo{
-        margin: auto;
-    }
-    #RBContract img,
-    #WWCD img{
-        display: none;
-       
-    }
-    #RBContract,
-    #WWCD{
-        text-align: center;
-    }
-    .freelancer-wraper,
-    .client-wraper{
-        text-align: center;
-    }
- }
-
-
- @media only screen and (min-width: 799px) and (max-width:1080px) {
- .wrapperFC {
-    display: flex;
-    justify-content: space-between;
-    margin:2vw;
-  }
-  
-  .mainFC,
-  .sidebarFC {
-   
-    padding: 5px;
-    background-color: #fff;
-  }
-  
-  .mainFC {
-    width: 70%;
-    height: 180vh;
-  }
-
-  .mainF,
-.mainC{
-    width:100%;
-   
-}
-  .sidebarFC {
-    
-    width: 25%;
-    height: 60vh;
-    display: flex;
-    flex-direction:column;
-  }
-  .sidebarFC {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
- .sidebarFC a{
-     display: block;
-     text-decoration: none;
-     color: darkgray;
-     padding-left: .5em;
-     margin:.3em 0;
- }
- .sidebarFC .sidebarTitle{
-     padding-left: 0;
- }
- .sidebar a:link{
-    color: black;
-}
- .sidebar a:visited{
-    color: black;
-}
- .sidebarFC a:hover{
-     color: black;
- }
-.sidebarFC a:active{
-    color: black;
-}
-
-.swiper-father{
-    width:100%;
-    height:50vh;
-    
-    position:relative;
-}  
-.swiper-container{
-   
-    width:calc(100% - 5em);
-    height:50vh;
-}
-.swiper-slide{
-    height:50vh;
-    background: #003557;
-    display: ;
-   
-}
-.swiper-slide .text{
-    display: ;
-   text-align: center;
-    color: white;
-}
-.wrapperFC,
-.client-wraper,
-.client-gallery,
-#RBContract,
-#WWCD{
-    margin-top: 5em;
-}
-.swiper-slide img{
-    display: none;
-   
-}
-.client-gallery{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 0.5em;
-}
-.client-gallery img{
-    width: 8em;
-}
-.client-gallery .logo{
-    margin: auto;
-}
-#RBContract,
-#WWCD{
-    display: flex;
-    justify-content: space-between;
-}
-#RBContract img,
-#WWCD img{
-    width: 48%;
-    height: 30vh;
-   
-}
-.RBContract-text,
-.WWCD-text{
-    width: 48%;
-}
-.freelancer-wraper,
-.client-wraper{
-    text-align: center;
-}
- }
-
- @media only screen and (min-width: 1080px) {
-    .wrapperFC {
-       display: flex;
-       justify-content: space-between;
-       margin: 2vw;
-     }
-     
-     .mainFC,
-     .sidebarFC {
-      
-       padding: 5px;
-       background-color: #fff;
-     }
-     
-     .mainFC {
-       width: 70%;
-       height: 250vh;
-     }
-   
-     .mainF,
-   .mainC{
-       width:100%;
-      
-   }
-     .sidebarFC {
-       
-       width: 25%;
-       height: 60vh;
-       display: flex;
-       flex-direction:column;
-     }
-     .sidebarFC {
-       position: -webkit-sticky;
-       position: sticky;
-       top: 0;
-     }
-    .sidebarFC a{
-        display: block;
-        text-decoration: none;
-        color: darkgray;
-        padding-left: .5em;
-        margin:.3em 0;
-    }
-    .sidebarFC .sidebarTitle{
-        padding-left: 0;
-    }
-    .sidebar a:link{
-       color: black;
-   }
-    .sidebar a:visited{
-       color: black;
-   }
-    .sidebarFC a:hover{
-        color: black;
-    }
-   .sidebarFC a:active{
-       color: black;
-   }
-   
-   .swiper-father{
-       width:100%;
-       height:50vh;
-       
-       position:relative;
-   }  
-   .swiper-container{
-      
-       width:calc(100% - 5em);
-       height:50vh;
-   }
-   .swiper-slide{
-       height:50vh;
-       background: #003557;
-       display: flex;
-       justify-content: space-between;
-   }
-   .swiper-slide .text{
-       display: flex;
-       flex-direction: column;
-      margin-left: 1em;
-       margin-top: -10em;
-       color: white;
-   }
-   .swiper-slide img{
-       display: block;
-       height:50vh;
-       width:60%;
-   }
-   .client-gallery{
-       display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
-       grid-template-rows: 1fr 1fr;
-       grid-gap: 0.5em;
-   }
-   .client-gallery img{
-       width: 8em;
-   }
-   .client-gallery .logo{
-       margin: auto;
-   }
-   
-   #RBContract,
-#WWCD{
-    display: flex;
-    justify-content: space-between;
-}
-#RBContract img,
-#WWCD img{
-    width: 48%;
-    height: 40vh;
-}
-.RBContract-text,
-.WWCD-text{
-    width: 48%;
-}
-   .freelancer-wraper,
-   .client-wraper{
-       text-align: center;
-   }
-   .wrapperFC,
-.client-wraper,
-.client-gallery,
-#RBContract,
-#WWCD{
-    margin-top: 5em;
-}
-    }
-/*End new added sunying*/
+ 
