@@ -487,32 +487,6 @@ your code for breaking changes.</p>
             <img id="go-to-top" class="float-right" alt="up button" src="images/icons/button-up.jpg"/>
         </div>
     </div>
-
-    <div id="signup-modal" class="modal">
-      <div class="modal-content">
-        <span id="closeModal" class="close">&times;</span>
-        <p>Some text in the Modal..</p>
-      </div>
-    </div>
-    <script>
-        const modal = document.querySelector('#signup-modal');
-
-        const signupBtn = document.querySelector('#signup-btn');
-        signupBtn.onclick = function() {
-            modal.style.display = "block";
-        }
-
-        const closeModal = document.querySelector("#closeModal");
-        closeModal.onclick = function() {
-          modal.style.display = "none";
-        }
-
-        window.onclick = function(event) {
-          if (event.target == modal) {
-            modal.style.display = "none";
-          }
-        }
-    </script>
     <script type="text/javascript">
         var clicks = 0;
         $(".navbar-toggler").click(function() {
