@@ -407,7 +407,7 @@ your code for breaking changes.</p>
             <!-- end slideshow -->
             <div class="col-12">
                 <h4 class="text-center"><b>Raise the standard for engineering excellence:</b></h4>
-                <p class="text-center"><button>Go Train!</button></p>
+                <p class="text-center"><button id="signup-btn" class="join-us">Go Train!</button></p>
             </div>
             <div class="col-4 mx-auto">
                 <hr class="colearning-hr mx-auto">
@@ -485,6 +485,32 @@ your code for breaking changes.</p>
             <img id="go-to-top" class="float-right" alt="up button" src="images/icons/button-up.jpg"/>
         </div>
     </div>
+
+    <div id="signup-modal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+      </div>
+    </div>
+    <script>
+        const modal = document.querySelector('#signup-modal');
+
+        const signupBtn = document.querySelector('#signup-btn');
+        signupBtn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        const closeModal = document.querySelector("#closeModal");
+        closeModal.onclick = function() {
+          modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+    </script>
     <script type="text/javascript">
         var clicks = 0;
         $(".navbar-toggler").click(function() {
