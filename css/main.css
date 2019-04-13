@@ -13,13 +13,11 @@
     margin-top: 5rem;
 }  
 .swiper-container{
-    width:;
     height:40vh;
 }
 .swiper-slide{
     height:40vh;
     padding: 0 4rem;
-    background: ;
     display: flex;
     justify-content: space-between;
     /* Center slide text vertically */
@@ -39,7 +37,6 @@
 .swiper-slide .text{
    margin: auto ;
    text-align: center;
-   color: ;
 }
 .swiper-slide img{
     display: none;
@@ -47,19 +44,17 @@
     height: auto;
 }
 .swiper-slide h2{
-    margin-top:;
-    margin-bottom:;
     font-family: montserrat, sans-serif;
     font-weight: 400;
     text-align: center;
 }
-.swiper-button-prev,
-.swiper-button-next{
-    outline: ;
-}
+
 /*end freelancer part*/
 
  /*content*/
+ .client-part {
+     margin-top: -5rem;
+ }
  .bodyContent-text{
      margin-top:0.5rem;
      font-family: lato, sans-serif;
@@ -79,7 +74,7 @@
      display: block;
      width: 20vw;
      max-width: 80px;
-     height: 5vh;
+     height: 4vh;
      min-height:30px; 
      margin: auto;
  }
@@ -111,7 +106,9 @@
 
 /*sidebar, no picture in slide*/
 @media only screen and  (min-width:992px) and (max-width:1200px) {
-
+ .main-freelancer-client {
+     margin: 0 auto;
+ }
 /*start freelancer part*/
 .swiper-father{
     width:100%;
@@ -120,7 +117,6 @@
     margin-top: 5rem;
 }  
 .swiper-container{
-    width:;
     height:40vh;
 }
 .swiper-slide{
@@ -154,14 +150,15 @@
     height: auto;
 }
 .swiper-slide h2{
-    margin-top:;
-    margin-bottom:;
     font-family: montserrat, sans-serif;
     font-weight: 400;
     text-align: center;
 }
 /*end freelancer part*/
 /*content*/
+.client-part{
+    margin-top: -5rem;
+}
 .bodyContent-text{
     margin-top:0.5rem;
     font-family: lato, sans-serif;
@@ -183,7 +180,7 @@
     display: block;
     width: 20vw;
     max-width: 80px;
-    height: 5vh;
+    height: 4vh;
     min-height:30px; 
     margin: auto;
 }
@@ -219,16 +216,16 @@
     display: block;
     text-decoration: none;
     color: darkgray;
-    padding-left: .5em;
-    margin:.3em 0;
+    padding-left: calc(3vw + 20px);
+    margin:.3rem 0;
 }
 .sidebar-freelancer-client .sidebar-title{
-    padding-left: 0;
+    padding-left: calc(1vw + 20px);
 }
 .sidebar-freelancer-client {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    margin-left: -2em;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-left: -2rem;
 }
 .sidebar-freelancer-client a:link{
    color: ;
@@ -242,6 +239,9 @@
 .sidebar-freelancer-client a:active{
    color: ;
 }
+.people-content img {
+    width: 10rem;
+}
 }
 
 /* sidebar, picture in slide*/
@@ -254,13 +254,11 @@
     margin-top: 5rem;
 }  
 .swiper-container{
-    width:;
     height:40vh;
 }
 .swiper-slide{
     height:40vh;
     padding: 0 4rem;
-    background: ;
     display: flex;
     justify-content: space-between;
      /* Center slide text vertically */
@@ -280,22 +278,21 @@
 .swiper-slide .text{
    margin: auto ;
    text-align: center;
-   color: ;
 }
 .swiper-slide img{
-    display: ;
     width:40%;
     height: auto;
 }
 .swiper-slide h2{
-    margin-top:;
-    margin-bottom:;
     font-family: montserrat, sans-serif;
     font-weight: 400;
     text-align: center;
 }
 /*end freelancer part*/
 /*content*/
+.client-part{
+    margin-top: -5rem;
+}
 .bodyContent-text{
     margin-top:0.5rem;
     font-family: lato, sans-serif;
@@ -317,7 +314,7 @@
     display: block;
     width: 20vw;
     max-width: 80px;
-    height: 5vh;
+    height: 4vh;
     min-height:30px; 
     margin: auto;
 }
@@ -350,16 +347,16 @@
     display: block;
     text-decoration: none;
     color: darkgray;
-    padding-left: .5em;
-    margin:.3em 0;
+    padding-left: calc(3vw + 30px);
+    margin:.3rem 0;
 }
 .sidebar-freelancer-client .sidebar-title{
-    padding-left: 0;
+    padding-left: calc(1vw + 30px);
 }
 .sidebar-freelancer-client {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    margin-left: -4em;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-left: -4rem;
 }
 .sidebar-freelancer-client a:link{
    color: ;
@@ -372,6 +369,9 @@
 }
 .sidebar-freelancer-client a:active{
    color: ;
+}
+.people-content img {
+    width: 10rem;
 }
 }
 /*end sunying code*/
@@ -483,9 +483,6 @@
         font-size:7vw;
     }
  
-
-
-   
     /* franchises section*/
     #logo-footer-content {
         /* col-12 */
