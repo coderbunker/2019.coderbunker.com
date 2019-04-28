@@ -1,0 +1,13 @@
+navigation:
+- text: Services
+  url: /services/
+- text: Projects
+  url: /projects/
+- text: Become a developer
+  url: /become-a-developer/
+- text: Workshops
+  url: /workshops/
+- text: About
+  url: /about/
+- text: Blog
+  url: /blog/

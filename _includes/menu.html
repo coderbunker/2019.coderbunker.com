@@ -1,3 +1,88 @@
+    
+    {% if include.mainHeading == true %}
+    <div class="container-fluid" >
+            <div class="row">
+                <div class="col-12 mh-100 p-0" id="header-container">
+                        <div class="container-fluid" >
+                                <div class="row" id="section-header-container">   
+                                    <div class="col-8" id="top-menu">
+                                            <nav class="navbar navbar-expand-md navbar-toggler-md navbar-no-bg" role="navigation">
+                                                <a href="/"class="navbar-brand"><img alt="logo Coderbunker" src="/images/icons/logo.png" /> Coderbunker</a>
+                                                <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-toggle="collapse" data-target="#navbarCollapse">
+                                                    <span class="navbar-toggler-icon"></span>
+                                                </button>
+                                                <div class="collapse navbar-collapse" id="navbarCollapse">
+                                                    <!-- Not being used for now -->
+                                                    <ul class="navbar-nav ml-auto" id="sectionNav">
+                                                        {% for section in include.sections %}
+                                                        <li class="nav-item">
+                                                            <a id="community" class="nav-link scroll-link" href="{{ section.url }}">{{ section.text }}</a>
+                                                        </li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                </div>
+                                            </nav>
+                                    </div>
+                                    <div class="col-4 navbar-expand-sm" id="header-social-icons-container">
+                                        <nav class="navbar navbar-expand-sm mx-auto" id="header-social-icons">
+                                            <ul class="navbar-nav mx-auto" id="footer-social-icons-container">
+                                                <li class="nav-item list-inline-item pr-1">
+                                                    <a href="https://github.com/coderbunker" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                                                </li>
+                                                <li class="nav-item list-inline-item pr-1">
+                                                    <i class="fab fa-weixin"><span class="wechat-account" id="header-wechat-account" style="display:none;">WeChat ID: coderbunker</span></i>
+                                                </li>
+                                                <li class="nav-item list-inline-item pr-1">
+                                                    <a href="https://www.facebook.com/coderbunker" target="_blank" rel="noopener noreferrer"> <i class="fab fa-facebook-f"></a></i>
+                                                </li>
+                                                <li class="nav-item list-inline-item pr-1">
+                                                    <a href="https://www.linkedin.com/company/coderbunker/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                                                </li>
+                                                <li class="nav-item list-inline-item pr-1">
+                                                    <a href="https://medium.com/coderbunker" target="_blank" rel="noopener noreferrer"><i class="fab fa-medium"></i></a>
+                                                </li>
+                                                <li class="nav-item list-inline-item pr-1">
+                                                    <a href="https://www.meetup.com/coderbunker/" target="_blank" rel="noopener noreferrer"><i class="fab fa-meetup"></i></a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                    <div class="container-fluid" id="header-content">
+                        <div class="row">
+                            <div class="col-6 mx-auto" id="coderBunkerSentence">
+                                <h1 class=>We are a community focusing on people who learn, design, develop, create and invest in technology</h1>
+                                <p>We connect companies and individuals that need a specialised skillset for a project with freelancers that have the necessary skills to complete that project.</p>
+                                <a rel="noopener noreferrer" id="join-us-button" style="height: 2.5rem; width: 8rem; background-color:#e74c3c; border:none; padding-top:.5rem; padding-bottom:.5rem; padding-left:2rem; padding-right:2rem; color:white !important; font-family: montserrat, sans-serif !important; font-weight: 600; border-radius: 7px;" class=" d-block typeform-share button" href="https://danteperea.typeform.com/to/cLYO2M" data-mode="drawer_left" style="display:inline-block;text-decoration:none;background-color:#E74C3C;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:17px;line-height:42.5px;text-align:center;margin:0;height:42.5px;padding:0px 28px;border-radius:9px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-hide-headers=true data-hide-footer=true target="_blank">Join us! </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                            </div>
+                            <div class="col-4 mx-auto" id="bubbles-container">
+                                <div class="rounded-circle bubble" id="entrepreneur-bubble">
+                                    <span>entrepreneur</span>
+                                </div>
+                                <div class="rounded-circle bubble" id="freelancer-bubble">
+                                    <span>Freelancer</span>
+                                </div>
+                                <div class="rounded-circle bubble" id="community-bubble">
+                                    <span>Community</span>
+                                </div>
+                                <div class="rounded-circle bubble" id="investor-bubble">
+                                    <span>Investor</span>
+                                </div>
+                                <div class="rounded-circle bubble" id="learner-bubble">
+                                    <span>learner</span>
+                                </div>
+                                <div class="rounded-circle bubble" id="void-bubble">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    {% endif %}
+    {% if include.mainHeading == false %}
     <div class="container-fluid" >
         <div class="row" id="section-header-container">   
             <div class="col-8" id="top-menu">
@@ -9,24 +94,11 @@
                             <div class="collapse navbar-collapse" id="navbarCollapse">
                                 <!-- Not being used for now -->
                                 <ul class="navbar-nav ml-auto" id="sectionNav">
+                                    {% for section in include.sections %}
                                     <li class="nav-item">
-                                        <a id="community" class="nav-link scroll-link" href="/services">Services</a>
+                                        <a id="community" class="nav-link scroll-link" href="{{ section.url }}">{{ section.text }}</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a id="community" class="nav-link scroll-link" href="/projects">Projects</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a id="work" class="nav-link scroll-link" href="/bridging-the-gap">Become a developer</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a id="events" class="nav-link scroll-link" href="/workshops">Workshops</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a id="about" class="nav-link scroll-link" href="/about">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a id="blog" class="nav-link scroll-link" href="/blog">Blog</a>
-                                    </li>
+                                    {% endfor %}
                                 </ul>
                             </div>
                     </nav>
@@ -57,3 +129,5 @@
             </div>
         </div>
     </div>
+
+    {% endif %}
