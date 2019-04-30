@@ -1,0 +1,307 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Coderbunker Website</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    
+    <script src="js/swiper.min.js"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- JS -->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" integrity="sha384-fJU6sGmyn07b+uD1nMk7/iSb4yvaowcueiQhfVgQuD98rfva8mcr1eSvjchfpMrH" crossorigin="anonymous"></script><script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha384-YWP9O4NjmcGo4oEJFXvvYSEzuHIvey+LbXkBNJ1Kd0yfugEZN9NCQNpRYBVC1RvA" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link http-equiv="Content-Type" content="text/html;charset=UTF-8" href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Animate CSS-->
+    <link http-equiv="Content-Type" content="text/html;charset=UTF-8" rel="stylesheet" href="css/animate.css">
+    <!-- css and fonts-->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link http-equiv="Content-Type" content="text/html;charset=UTF-8" href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link http-equiv="Content-Type" content="text/html;charset=UTF-8" href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/qpj4ugj.css" integrity="sha384-Ty/99WUHYq9Jc7Hvn1AuHmKI+C4AQE2Cbm4jY9kTsnDX3PdnXurTgegpu5qaQAUM" crossorigin="anonymous"> <!-- Montserrat font (bold, semiBold, Regular)-->
+    <link http-equiv="Content-Type" content="text/html;charset=UTF-8" href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container-fluid" >
+        <div class="row" id="section-header-container">   
+            <div class="col-8" id="top-menu">
+                <nav class="navbar navbar-expand-md navbar-toggler-md navbar-no-bg" role="navigation">
+                        <a href="/"class="navbar-brand"><img alt="logo Coderbunker" src="images/icons/logo.png" /> Coderbunker</a>
+                        <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <!-- Not being used for now -->
+                            <ul class="navbar-nav ml-auto" id="sectionNav">
+                                <li class="nav-item">
+                                    <a id="community" class="nav-link scroll-link" href="/services">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="community" class="nav-link scroll-link" href="/projects">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="work" class="nav-link scroll-link" href="/bridging-the-gap">Become a developer</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="events" class="nav-link scroll-link" href="/workshops">Workshops</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="about" class="nav-link scroll-link" href="/about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="blog" class="nav-link scroll-link" href="/blog">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                </nav>
+            </div>
+            <div class="col-4 navbar-expand-sm" id="header-social-icons-container">
+                <nav class="navbar navbar-expand-sm mx-auto" id="header-social-icons">
+                    <ul class="navbar-nav mx-auto" id="footer-social-icons-container">
+                        <li class="nav-item list-inline-item pr-1">
+                            <a href="https://github.com/coderbunker" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li class="nav-item list-inline-item pr-1">
+                            <i class="fab fa-weixin"><span class="wechat-account" id="header-wechat-account" style="display:none;">WeChat ID: coderbunker</span></i>
+                        </li>
+                        <li class="nav-item list-inline-item pr-1">
+                            <a href="https://www.facebook.com/coderbunker" target="_blank" rel="noopener noreferrer"> <i class="fab fa-facebook-f"></a></i>
+                        </li>
+                        <li class="nav-item list-inline-item pr-1">
+                            <a href="https://www.linkedin.com/company/coderbunker/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <li class="nav-item list-inline-item pr-1">
+                            <a href="https://medium.com/coderbunker" target="_blank" rel="noopener noreferrer"><i class="fab fa-medium"></i></a>
+                        </li>
+                        <li class="nav-item list-inline-item pr-1">
+                            <a href="https://www.meetup.com/coderbunker/" target="_blank" rel="noopener noreferrer"><i class="fab fa-meetup"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 page-title">
+                <h1 class="section-header-title text-center">Projects</h1>
+                <h4 class="text-center">Build your own portfolio of OpenSource projects!</h4>
+            </div>
+            <!-- pgManati -->
+            <div class="col-12 project-content-image mx-auto">
+                    <img class="project-image-mobile d-block mx-auto" style="margin-top: 15%;" src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/775700/pgManati-logo_fujceb.png"/>
+                </div>
+            <div class="col-7 mx-auto project-content-text">
+                <h3>pgManati</h3>
+                <p><i>TURN POSTGRESQL INTO REST API AUTOMATICALLY!</i></p>
+                <p>pg-manati is an advanced access to a PostgreSQL database using REST API. It is based on Node.js. </p>
+                <ul> 
+                    <li class="d-block"><b>Lead:</b> Sylvain Verly</li>
+                    <li class="d-block"><b>Github:</b> https://github.com/coderbunker/pg-manati</li>
+                    <li class="d-block"><b>NPM:</b> https://www.npmjs.com/package/pg-manati</li>
+                    <li class="d-block"><b>Wiki:</b> https://github.com/coderbunker/pg-manati/wiki</li>
+                </ul>
+            </div>
+            <div class="col-5 project-content-image">
+                <img class="project-image" style="margin-top: 15%;" src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/775700/pgManati-logo_fujceb.png"/>
+            </div>
+            <!-- Sovereign of the Blooming Suns -->
+            <div class="col-12 project-content-image mx-auto">
+                <img class="project-image-mobile d-block mx-auto" style="margin-top: 15%;" src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/775700/love_ldzp71.jpg"/>
+            </div>
+            <div class="col-7 mx-auto project-content-text">
+                <h3>Sovereign of the Blooming Suns</h3>
+                <p><i>EMPEROR OF THE FADING SUNS INSPIRED LÖVE GAME</i></p>
+                <p>This is an attempt to develop a 4X Strategy Game featuring detailed planet-side mechanics, a la Emperor of the Fading Suns using LÖVE, a framework for making 2D games in the Lua programming language.</p>
+                <ul> 
+                    <li class="d-block"><b>Lead:</b> Edward Miller</li>
+                    <li class="d-block">https://github.com/coderbunker/blooming-suns</li>
+                </ul>
+            </div>
+            <div class="col-5">
+                <img class="project-image project-content-image" style="width:70%;" src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/775700/love_ldzp71.jpg"/>
+            </div>
+
+            <!-- Sovereign of the Blooming Suns -->
+            <div class="col-12 project-content-image mx-auto">
+                <img class="project-image-mobile d-block mx-auto" style="margin-top: 15%;" src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/775700/xor_classrooom_sknocf.jpg"/>
+            </div>
+            <div class="col-7 mx-auto project-content-text">
+                    <h3>The Human Computer</h3>
+                    <p><i>ONLINE METEORJS PROJECT TO RUN WORKSHOP</i></p>
+                    <p>This is a MeteorJS project to run workshops for large class settings (30 to 100 students) to demonstrate how to computers work in participatory exercises using party hats to represent binary state (1 or 0). Complement to the "Build a computer" Coursera course.</p>
+                    <ul> 
+                        <li class="d-block"><b>Lead:</b> Ricky Ng-Adam</li>
+                        <li class="d-block">https://www.youtube.com/watch?v=JK6ZPzD_3P0</li>
+                        <li class="d-block">https://github.com/coderbunker/human-computer</li>
+                    </ul>
+                </div>
+                <div class="col-5 project-content-text project-content-image">
+                    <img class="project-image" src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/775700/xor_classrooom_sknocf.jpg"/>
+                </div>
+
+                <!-- Sovereign of the Blooming Suns -->
+                <div class="col-12 project-content-image mx-auto">
+                    <img class="project-image-mobile d-block mx-auto" style="margin-top: 15%;" src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/775700/candra_snwc3n.jpg"/>
+                </div>
+                <div class="col-7 mx-auto project-content-text">
+                        <h3>CANDRA</h3>
+                        <p><i>COMMUNITY ADVANCED NETWORKED DIRECTORY & RESOURCES ADMINISTRATION</i></p>
+                        <p>Modern Community Management System for Hackerspaces, Co-Working Spaces and any other physical community. Membership management and resources search and reservation. Written in MeteorJS.</p>
+                        <ul> 
+                            <li class="d-block"><b>Lead:</b> Ricky Ng-Adam</li>
+                            <li class="d-block">https://www.youtube.com/watch?v=JK6ZPzD_3P0</li>
+                            <li class="d-block">https://github.com/coderbunker/human-computer</li>
+                        </ul>
+                    </div>
+                    <div class="col-5 project-content-text project-content-image">
+                        <img class="project-image" src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/775700/candra_snwc3n.jpg"/>
+                    </div>
+
+
+                    <!-- End what people are saying section -->
+
+        </div>
+    </div>
+    <div class="col-12 mh-100 p-0" id="footer-container">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Start logo-footer -->
+                <div class="col-2" id="logo-footer-content">
+                    <span id="logo-footer">Coderbunker</span>
+                </div>
+                <!-- End logo-footer -->
+                    <div class="col-7 mx-auto">
+                        <div class="row">
+                            <div class="col-4" id="shanghai-franchise">
+                                <h5 class="text-left franchise-city" id="shanghai-franchise-title">Shanghai</h5>
+                                <p class="franchise-text">Building 8, Basement, Panyu Road 1199</p>
+                                <p class="franchise-text">200031 Shanghai, China</p>
+                                <p class="franchise-text">+86 (21) 6054 8081</p>
+                                <p><a href="mailto:cn@coderbunker.com">cn@coderbunker.com</a></p>
+                            </div>
+                            <div class="col-4" id="singapore-franchise">
+                                <h5 class="text-left franchise-city" id="singapore-franchise-title">Singapore</h5>
+                                <p class="franchise-text">344B King George's Avenue</p>
+                                <p class="franchise-text">208576 Singapore  </p>
+                                <p><a href="mailto:sg@coderbunker.com">sg@coderbunker.com</a></p>
+                            </div>
+                            <div class="col-4" id="birmingham-franchise">
+                                <h5 class="text-left franchise-city" id="birmingham-franchise-title">Birmingham</h5>
+                                <p class="franchise-text">50 Stratford Road, Shipston-on-Stour</p>
+                                <p class="franchise-text">CV36 4BA Warwickshire, Birmingham, UK</p>
+                                <p><a href="mailto:uk@coderbunker.com">uk@coderbunker.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End franchises section -->
+                    <!-- Start social-icons -->
+                    <div class="col-3 float-right" id="footer-social-icons">
+                        <nav class="navbar navbar-expand-sm mx-auto">
+                            <ul class="navbar-nav mx-auto" id="footer-social-icons-container">
+                                <li class="nav-item list-inline-item pr-1">
+                                    <a href="https://github.com/coderbunker" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                                </li>
+                                <li class="nav-item list-inline-item pr-1">
+                                   <i class="fab fa-weixin"><span class="wechat-account" id="footer-wechat-account" style="display:none;">coderbunker</span></i>
+                                </li>
+                                <li class="nav-item list-inline-item pr-1">
+                                   <a href="https://www.facebook.com/coderbunker" target="_blank" rel="noopener noreferrer"> <i class="fab fa-facebook-f"></a></i>
+                                </li>
+                                <li class="nav-item list-inline-item pr-1">
+                                    <a href="https://www.linkedin.com/company/coderbunker/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                                <li class="nav-item list-inline-item pr-1">
+                                    <a href="https://medium.com/coderbunker" target="_blank" rel="noopener noreferrer"><i class="fab fa-medium"></i></a>
+                                </li>
+                                <li class="nav-item list-inline-item pr-1">
+                                    <a href="https://www.meetup.com/coderbunker/" target="_blank" rel="noopener noreferrer"><i class="fab fa-meetup"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <p class="text-center">Follow us on WeChat</p>
+                        <img id="qrcode" class="d-block mx-auto wow bounceInUp" src="images/qrcode/coderbunker_wechat/qrcode.jpg"/>
+                    </div>
+                <!-- End social-icons -->
+            </div>
+        </div>
+        <hr>
+        <div class="col-12" id="copyright">
+            <p class="text-right">2019 All rights reserved. Coderbunker Website</p>
+        </div>
+        <div class="col-12" id="go-to-top-container">
+            <img id="go-to-top" class="float-right" alt="up button" src="images/icons/button-up.jpg"/>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var clicks = 0;
+        $(".navbar-toggler").click(function() {
+            clicks+= 1;
+            if(isOdd(clicks)) 
+            {
+                $("#header-social-icons-container").css("display","none");
+                $("#top-menu").attr("id","top-menu-clicked");
+                $("#top-menu-clicked").removeClass("col-8");
+                $("#top-menu-clicked").addClass("col-12");
+                $("#navbarCollapse").addClass("navCollapseAfter");
+
+            } else { 
+                $("#header-social-icons-container").css("display","block");
+                $("#top-menu-clicked").attr("id","top-menu");
+                $("#top-menu").addClass("col-8");
+                $("#top-menu").removeClass("col-12");
+                $("#navbarCollapse").removeClass("navCollapseAfter");
+
+            }
+        });
+        function isOdd(n) {
+            if(Math.abs(n % 2) == 1) {
+                console.log(true);
+                return true;
+            } else {
+                return false;
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        $(".fa-weixin").click(function(event) {
+            var elementId = (this).id;
+            console.log(elementId); 
+        $("#header-wechat-account").css({display: 'inline-block'})
+        }); 
+        $(".fa-weixin").click(function(event) {
+            var elementId = (this).id;
+            console.log(elementId);
+            // $("#footer-wechat-account").css({display: 'inline-block'})
+        });
+    </script>
+  <script>
+        var swiper = new Swiper('.swiper-container', {
+            autoHeight: true, //enable auto height
+            spaceBetween: 0,
+
+          /*pagination: {
+            el: '.swiper-pagination',
+            type: 'progressbar',
+          }, */
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133578355-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-133578355-1');
+    </script>
+</body>
