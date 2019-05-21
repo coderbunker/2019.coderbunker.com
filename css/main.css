@@ -38,7 +38,7 @@
    margin: auto ;
    text-align: center;
 }
-.swiper-slide img{
+.swiper-slide .fimg{
     display: none;
     width: 40%;
     height: auto;
@@ -48,6 +48,7 @@
     font-weight: 400;
     text-align: center;
 }
+
 /*end freelancer part*/
 /*learn more link and sign up button*/
 /*learn more link*/
@@ -207,13 +208,9 @@
      font-style:normal;
      text-align: center; 
  }
- #community-end img,
- #signup-end img{
-     margin-top: 2rem;
- }
  /*client gallery*/
  .client-gallery{
-     margin-top: 10rem;
+     margin-top: 5rem;
  }
  .client-gallery img{
      display: block;
@@ -230,6 +227,7 @@
  /*what people are saying*/
  .people-content img {
      width:40%;
+     max-width: 30vw;
      margin-top: 2rem;
  }
  .people-name {
@@ -247,6 +245,15 @@
      font-style: italic;
      letter-spacing: 1px;
  }
+  /*workshop*/
+.workshops-swiper{
+    height: auto;
+}
+.workshops-row{
+    display: flex;
+    flex-direction: column-reverse;
+}
+   
 }
 
 /*sidebar, no picture in slide*/
@@ -287,9 +294,8 @@
 .swiper-slide .text{
    margin: auto ;
    text-align: center;
-   color: ;
 }
-.swiper-slide img{
+.swiper-slide .fimg{
     display: none;
     width: 40%;
     height: auto;
@@ -448,9 +454,7 @@
                 border-radius: 200px; }
  /*end of learn more link and sign up button*/  
 /*content*/
-.client-part{
-    margin-top: -5rem;
-}
+
 .bodyContent-text{
     margin-top:0.5rem;
     font-family: lato, sans-serif;
@@ -458,15 +462,13 @@
     font-style:normal;
     text-align: center; 
 }
-#community-end .bodyContent-text,
-#signup-end .bodyContent-text{
+#community-end .bodyContent-text{
     text-align: start;
-    margin-top: 0;
 }
 
 /*client gallery*/
 .client-gallery{
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 .client-gallery img{
     display: block;
@@ -533,6 +535,10 @@
 }
 .people-content img {
     width: 10rem;
+}
+/*workshops*/
+.workshops-swiper{
+    height: auto;
 }
 }
 
@@ -729,9 +735,7 @@
                 border-radius: 200px; }
  /*end of learn more link and sign up button*/  
 /*content*/
-.client-part{
-    margin-top: -5rem;
-}
+
 .bodyContent-text{
     margin-top:0.5rem;
     font-family: lato, sans-serif;
@@ -739,15 +743,13 @@
     font-style:normal;
     text-align: center; 
 }
-#community-end .bodyContent-text,
-#signup-end .bodyContent-text{
+#community-end .bodyContent-text{
     text-align: start;
-    margin-top: 0;
 }
 
 /*client gallery*/
 .client-gallery{
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 .client-gallery img{
     display: block;
@@ -812,6 +814,10 @@
 .people-content img {
     width: 10rem;
 }
+/*workshops*/
+.workshops-swiper{
+    height: auto;
+}
 }
 /*end sunying code*/
 
@@ -875,12 +881,6 @@
     /* services page */
     .swiper-slide {
         height:100%;
-    }
-    .slides-content {
-        display:none;
-    }
-    .slides-mobile-content {
-        display:block !important;
     }
     .slides-image-content {
         /* col-12 */
@@ -1480,13 +1480,8 @@ p.proposal-text{
     display:none;
 }
 /* services page */
-.slides-content {
-}
-.slides-mobile-content {
-    display:none;
-}
 #footer-container {
-    margin-top: rem;
+    margin-top: 15rem;
 }
 #footer-social-icons {
     color: #b5b5c8 !important;
@@ -1908,4 +1903,3 @@ h3 span.underline-page {
 }
 /* projects section */
 
- 
