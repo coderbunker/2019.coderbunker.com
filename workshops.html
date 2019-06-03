@@ -35,7 +35,9 @@ layout: workshops
         <ul class="each-post">
                 {% for post in site.posts %}
                   <li>
-                    <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
+                    <a href="{{ post.url }}" class="post-title">{{ post.title }}
+                    </a>
+                    {{ post.brief }}
                   </li> 
                   <br>
                 {% endfor %}
