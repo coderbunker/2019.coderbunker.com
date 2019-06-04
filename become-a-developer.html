@@ -1,10 +1,7 @@
 ---
 layout: bec-a-dev
 ---
-<body>
-
     <!-- Header layout-->
-
     <div class="container-fluid">
         <div class="row" style="position:relative;">
             <div class="col-12 p-0" id="colearning-image-container">
@@ -67,79 +64,6 @@ layout: bec-a-dev
             <div class="col-12">
                 <p><i>**It's required to pass an ability validation task to enroll to the training camp</i></p>
             </div>
-
-
-
-                    <!-- End what people are saying section -->
-                        <!-- End footer section -->
         </div>
     </div>
-
  <!-- Footer Layout -->
-    <script type="text/javascript">
-        var clicks = 0;
-        $(".navbar-toggler").click(function() {
-            clicks+= 1;
-            if(isOdd(clicks)) 
-            {
-                $("#header-social-icons-container").css("display","none");
-                $("#top-menu").attr("id","top-menu-clicked");
-                $("#top-menu-clicked").removeClass("col-8");
-                $("#top-menu-clicked").addClass("col-12");
-                $("#navbarCollapse").addClass("navCollapseAfter");
-
-            } else { 
-                $("#header-social-icons-container").css("display","block");
-                $("#top-menu-clicked").attr("id","top-menu");
-                $("#top-menu").addClass("col-8");
-                $("#top-menu").removeClass("col-12");
-                $("#navbarCollapse").removeClass("navCollapseAfter");
-
-            }
-        });
-        function isOdd(n) {
-            if(Math.abs(n % 2) == 1) {
-                console.log(true);
-                return true;
-            } else {
-                return false;
-            }
-        }
-    </script>
-    <script type="text/javascript">
-        $(".fa-weixin").click(function(event) {
-            var elementId = (this).id;
-            console.log(elementId); 
-        $("#header-wechat-account").css({display: 'inline-block'})
-        }); 
-        $(".fa-weixin").click(function(event) {
-            var elementId = (this).id;
-            console.log(elementId);
-            // $("#footer-wechat-account").css({display: 'inline-block'})
-        });
-    </script>
-  <script>
-        var swiper = new Swiper('.swiper-container', {
-            autoHeight: true, //enable auto height
-            spaceBetween: 0,
-
-          /*pagination: {
-            el: '.swiper-pagination',
-            type: 'progressbar',
-          }, */
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-        });
-      </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133578355-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-133578355-1');
-    </script>
-</body>
