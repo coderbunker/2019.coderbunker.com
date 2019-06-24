@@ -4,9 +4,7 @@ layout: workshops
 
 <!-- Header Layout -->
 <body>
-
-    <div class="container-fluid">
-        <div class="row" style="position:relative;">
+        <div class="row" style="position:relative;" align="center">
             <div class="col-12 p-0" id="colearning-image-container">
                 <div class="col-12 opacity-image-container">
                     <div class="col-6 colearning-text-content mx-auto">
@@ -15,7 +13,6 @@ layout: workshops
                 </div>
             </div>
         </div>
-    </div>
     <div class="container">
         <div class="row">
                 <div class="col-6 colearning-color-content mx-auto">
@@ -26,34 +23,35 @@ layout: workshops
                 <!-- <h4 class="text-center">Hire us to onboard engineers in your organization.</h4> -->
                 <h4 class="text-center">Customize training to meet your organization's needs</h4>
             </div>
-
- <!-- posts -->  
- <div class="col-12">
-    <div class="posts-container">
-        <ul class="each-post">
-                {% for post in site.posts %}
-                  <li>
-                    <a href="{{ post.url }}" class="post-title">{{ post.title }}
-                    </a>
-                    {{ post.brief }}
-                  </li> 
-                  <br>
-                {% endfor %}
-              </ul>
-    </div>
-    <!-- end posts -->
-
-            <div class="col-12">
-                <h4 class="text-center"><b>Raise the standard of engineering excellence:</b></h4>
-                <p class="text-center">
-                    <a class="typeform-share button" rel="subresource dns-prefetch preconnect" href="https://majorasappiii.typeform.com/to/pFThlj" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#FF5658;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-hide-headers=true data-hide-footer=true data-submit-close-delay="0">Go Train! </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-                </p>
-            </div>
-            <div class="col-4 mx-auto">
-                <hr class="colearning-hr mx-auto">
-            </div>
         </div>
+        <!-- posts -->  
+        <div class="col-12 posts-container" align="center">
+           <div>
+               <ul class="each-post">
+                       {% for post in site.posts %}
+                         <li>
+                           <a href="{{ post.url }}" class="post-title">{{ post.title }}
+                           </a>
+                           {{ post.brief }}
+                         </li> 
+                         <br>
+                       {% endfor %}
+                     </ul>
+           </div>
+           <!-- end posts -->
+       
+                   <div class="col-12">
+                       <h4 class="text-center"><b>Raise the standard of engineering excellence:</b></h4>
+                       <p class="text-center">
+                           <a class="typeform-share button" rel="subresource dns-prefetch preconnect" href="https://majorasappiii.typeform.com/to/pFThlj" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#FF5658;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-hide-headers=true data-hide-footer=true data-submit-close-delay="0">Go Train! </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                       </p>
+                   </div>
+                   <div class="col-4 mx-auto">
+                       <hr class="colearning-hr mx-auto">
+                   </div>
+               </div>
     </div>
+
 
 <!-- footer Layout-->
 
