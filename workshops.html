@@ -25,11 +25,12 @@ layout: workshops
             </div>
         </div>
         <!-- posts -->  
-        <div class="col-12 posts-container" align="center">
+        <div class="posts-container">
            <div>
                <ul class="each-post">
                        {% for post in site.posts %}
                          <li>
+                             <span class="post-category">{{ post.category}}</span><br>
                            <a href="{{ post.url }}" class="post-title">{{ post.title }}
                            </a>
                            {{ post.brief }}
