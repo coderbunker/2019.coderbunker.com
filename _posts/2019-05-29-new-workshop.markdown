@@ -2,7 +2,7 @@
 layout: post
 title:  "new workshop"
 date:   2019-05-29
-category: post
+workshop-time: June-17th
 permalink: /:categories/:day/:month
 ---
 <br>
