@@ -2,12 +2,12 @@
 layout: post
 title:  "new workshop"
 date:   2019-05-29
-categories: post
+workshop-time: June-17th
 permalink: /:categories/:day/:month
 ---
-
+<br>
 <h1><span style="color:#e74c48; font-family: montserrat; font-weight:600"> 
-    {{ page.title }} 
+ {{ page.title }} 
 </span></h1>
 
 try not to pay attention to this, it makes no sense
