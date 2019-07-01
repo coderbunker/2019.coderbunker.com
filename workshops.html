@@ -31,7 +31,7 @@ layout: workshops
                <ul class="each-post">
                        {% for post in site.posts %}
                          <li>
-                             <span class="workshop-time">{{ post.workshop-time}}</span><br>
+                             <span class="workshop-time">{{ post.date | date_to_string: "ordinal", "US" }}</span><br>
                            <a href="{{ post.url }}" class="post-title">{{ post.title }}
                            </a>
                            {{ post.brief }}
