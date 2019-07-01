@@ -1,13 +1,13 @@
 navigation:
 - text: Services
-  url: /services/
+  url: /services
 - text: Projects
-  url: /projects/
+  url: /projects
 - text: Become a developer
-  url: /become-a-developer/
+  url: /become-a-developer
 - text: Workshops
-  url: /workshops/
+  url: /workshops
 - text: About
-  url: /about/
+  url: /about
 - text: Blog
-  url: /blog/
+  url: /blog
