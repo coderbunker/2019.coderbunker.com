@@ -226,7 +226,7 @@
     /* what people are saying section ended here */
     /* franchises section*/
     #logo-footer-content {
-        /* col-2 */
+        /* col-12 */
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
@@ -1209,7 +1209,6 @@ h3 span.underline-page {
     margin-bottom:5%;
     color:white !important; 
 }
-
 .blog-post .blog-post-title a{
     font-family: montserrat, sans-serif;
     font-weight: 400;
@@ -1218,36 +1217,3 @@ h3 span.underline-page {
     
 }
 /* projects section */
-
-/* workshops section */
-
-.post-title {
-    font-size: 2rem;
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    color: black;
-    text-decoration: none;
-}
-
-.each-post {
-    padding-left: 30%;
-}
-
-.post-category {
-    font-size: 1.2em;
-    text-align: left;
-    font-family: montserrat, sans-serif;
-
-}
-.post-contents p{
-    padding-left: 40px;
-    font-weight: 600;
-    font-size: 1.2rem;
-}
-
-.post-contents img{
-    align-self: center;
-    max-width: 750px;
-    max-height: 1334px;
-}

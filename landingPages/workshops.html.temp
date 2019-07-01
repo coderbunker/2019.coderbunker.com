@@ -1,0 +1,340 @@
+---
+layout: landingPage
+title: Workshops
+permalink: /workshops/
+descriptionBigImage:  We train and onboard new and senior software engineers in the latest technologies and methodologies.
+subject: Select from our catalogue of workshops À la carte.
+title: Workshops
+subTitle: Customize training to meet your organization's needs
+---
+
+    <div class="container-fluid">
+        <div class="row" style="position:relative;">
+            <div class="col-12 p-0" id="colearning-image-container">
+                <div class="col-12 opacity-image-container">
+                    <div class="col-6 colearning-text-content mx-auto">
+                         <p class="text-center header-text">{{page.descriptionBigImage}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+                <div class="col-6 colearning-color-content mx-auto">
+                    <p class="text-center">{{page.subject}}</p>
+                </div>
+            <div class="col-7 page-title mx-auto">
+                <h2 class="section-header-title text-center" id="colearning-title">{{page.title}}</h2>
+                <!-- <h4 class="text-center">Hire us to onboard engineers in your organization.</h4> -->
+                <h4 class="text-center">{{page.subTitle}}</h4>
+            </div>
+            <!-- slideshow -->
+            
+            <div class="col-12">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="col-12 role-container">
+                                    <div class="container-fluid">
+                                        <!-- content for normal displays -->
+                                        <div class="row slides-content">
+                                            <div class="role-message col-5 ml-auto slides-text-content">
+                                                <span>Blockchain</span>
+                                                <h3><span class="underline-page">Engin</span>eering Blockchain Networks</h3>
+                                                <div class="role-text">
+                                                    <p>The idea of the emulated blockchain network came from the idea that some technologies exist to publish smart contracts on an existing blockchain. But to develop and deploy a new blockchain from scratch nothing really exists.
+This ambitious project is just starting, it aims at using existing tools such as docker mongoDb, golang to create a really customised blockchain.</p>
+                                                </div>  
+                                                <div class="mr-0 pr-0 float-right">
+                                                    <!-- We don't use it yet -->
+                                                    <!-- 
+                                                    <button class="read-more-button">learn more</button>
+                                                    -->
+                                                </div>
+                                            </div>
+                                            <div class="role-image col-4 mr-auto slides-image-content">
+                                                <img alt="blockchain workshop" src="/workshop-assets/mohammed-blockchain.jpg" />
+                                            </div>
+                                        </div>
+                                        <!-- content for mobile displays -->
+                                        <div class="row slides-mobile-content" >
+                                                <div class="role-image col-4 mr-auto slides-image-content">
+                                                    <img alt="blockchain workshop" src="/workshop-assets/mohammed-blockchain.jpg" />
+                                                </div>
+                                                <div class="role-message col-5 ml-auto slides-text-content">
+                                                        <span>Blockchain</span>
+                                                        <h3><span class="underline-page">Engin</span>eering Blockchain Networks</h3>
+                                                        <div class="role-text">
+                                                            <p>The idea of the emulated blockchain network came from the idea that some technologies exist to publish smart contracts on an existing blockchain. But to develop and deploy a new blockchain from scratch nothing really exists.
+This ambitious project is just starting, it aims at using existing tools such as docker mongoDb, golang to create a really customised blockchain.</p>
+                                                        </div>  
+                                                    <div class="mr-0 pr-0 float-right">
+                                                        <!-- We don't use it yet -->
+                                                        <!-- 
+                                                        <button class="read-more-button">learn more</button>
+                                                        -->
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-12 role-container">
+                                    <div class="container-fluid">
+                                        <!-- content for normal displays -->
+                                        <div class="row slides-content">
+                                            <div class="role-message col-5 ml-auto slides-text-content">
+                                                <span>Testing</span>
+                                                <h3><span class="underline-page">Regr</span>ession Testing</h3>
+                                                <div class="role-text">
+                                                    <p>Changing or adding functionality and in an application often poses the risk of breaking existing functionality. This risk tends to increase with complexity, on large teams, and on teams with less senior members. In this workshop, we’ll learn the techniques for modifying code and introducing new code into a Python application without breaking existing functionality.</p>
+                                                </div>  
+                                                <div class="mr-0 pr-0 float-right">
+                                                    <!-- We don't use it yet -->
+                                                    <!-- 
+                                                    <button class="read-more-button">learn more</button>
+                                                    -->
+                                                </div>
+                                            </div>
+                                            <div class="role-image col-4 mr-auto slides-image-content">
+                                                <img alt="regression testing" src="/workshop-assets/major-regression-testing.jpg" />
+                                            </div>
+                                        </div>
+                                        <!-- content for mobile displays -->
+                                        <div class="row slides-mobile-content" >
+                                                <div class="role-image col-4 mr-auto slides-image-content">
+                                                    <img alt="regression testing" src="/workshop-assets/major-regression-testing.jpg" />
+                                                </div>
+                                                <div class="role-message col-5 ml-auto slides-text-content">
+                                                    <span>Testing</span>
+                                                    <h3><span class="underline-page">Regression</span>Testing</h3>
+                                                    <div class="role-text">
+                                                        <p>Changing or adding functionality and in an application often poses the risk of breaking existing functionality. This risk tends to increase with complexity, on large teams, and on teams with less senior members. In this workshop, we’ll learn the techniques for modifying code and introducing new code into a Python application without breaking existing functionality.</p>
+                                                    </div>  
+                                                    <div class="mr-0 pr-0 float-right">
+                                                        <!-- We don't use it yet -->
+                                                        <!-- 
+                                                        <button class="read-more-button">learn more</button>
+                                                        -->
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-12 role-container">
+                                    <div class="container-fluid">
+                                        <!-- content for normal displays -->
+                                        <div class="row slides-content">
+                                            <div class="role-message col-5 ml-auto slides-text-content">
+                                                <span>DevOps</span>
+                                                <h3><span class="underline-page">Contin</span>uous Integration With Jenkins</h3>
+                                                <div class="role-text">
+                                                    <p>We are going to do a hands on workshop to setup your own Jenkins platform and deploy your first Jenkins Continuous Delivery Pipeline with Jenkinsfile.
+The content gonna be very extensive,  involving HTTPS, CentOS 7, Github commit triggering, Jenkinsfile syntax, Jenkins master and slave model, etc.
+The timing of preparing the content is quite tight, will share what I’ve got, explain what is still missing and why
+</p>
+                                                </div>  
+                                                <div class="mr-0 pr-0 float-right">
+                                                    <!-- We don't use it yet -->
+                                                    <!-- 
+                                                    <button class="read-more-button">learn more</button>
+                                                    -->
+                                                </div>
+                                            </div>
+                                            <div class="role-image col-4 mr-auto slides-image-content">
+                                                <img alt="CI with jenkins" src="/workshop-assets/karl-ci.jpg" />
+                                            </div>
+                                        </div>
+                                        <!-- content for mobile displays -->
+                                        <div class="row slides-mobile-content" >
+                                                <div class="role-image col-4 mr-auto slides-image-content">
+                                                    <img alt="CI with jenkins" src="/workshop-assets/karl-ci.jpg" />
+                                                </div>
+                                                <div class="role-message col-5 ml-auto slides-text-content">
+                                                    <span>DevOps</span>
+                                                    <h3><span class="underline-page">Contin</span>uous Integration With Jenkins</h3>
+                                                    <div class="role-text">
+                                                        <p>We are going to do a hands on workshop to setup your own Jenkins platform and deploy your first Jenkins Continuous Delivery Pipeline with Jenkinsfile.
+The content gonna be very extensive,  involving HTTPS, CentOS 7, Github commit triggering, Jenkinsfile syntax, Jenkins master and slave model, etc.
+The timing of preparing the content is quite tight, will share what I’ve got, explain what is still missing and why
+</p>
+                                                    </div>  
+                                                    <div class="mr-0 pr-0 float-right">
+                                                        <!-- We don't use it yet -->
+                                                        <!-- 
+                                                        <button class="read-more-button">learn more</button>
+                                                        -->
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-12 role-container">
+                                    <div class="container-fluid">
+                                        <!-- content for normal displays -->
+                                        <div class="row slides-content">
+                                            <div class="role-message col-5 ml-auto slides-text-content">
+                                                <span>DevOps</span>
+                                                <h3><span class="underline-page">Contin</span>uous deployment with Docker</h3>
+                                                <div class="role-text">
+                                                    <p>Building and releasing continuously server-side code that works on any type of cloud instance does not have to be difficult. Join us as we explain how we use Docker, Docker Cloud integrated with Github to release and test server code continuously.</p>
+                                                </div>  
+                                                <div class="mr-0 pr-0 float-right">
+                                                    <!-- We don't use it yet -->
+                                                    <!-- 
+                                                    <button class="read-more-button">learn more</button>
+                                                    -->
+                                                </div>
+                                            </div>
+                                            <div class="role-image col-4 mr-auto slides-image-content">
+                                                <img alt="CD pipeline with docker" src="/workshop-assets/ricky-CD.jpg" />
+                                            </div>
+                                        </div>
+                                        <!-- content for mobile displays -->
+                                        <div class="row slides-mobile-content" >
+                                                <div class="role-image col-4 mr-auto slides-image-content">
+                                                    <img alt="CD pipeline with docker" src="/workshop-assets/ricky-CD.jpg" />
+                                                </div>
+                                                <div class="role-message col-5 ml-auto slides-text-content">
+                                                        <span>DevOps</span>
+                                                        <h3><span class="underline-page">Contin</span>uous deployment with Docker</h3>
+                                                        <div class="role-text">
+                                                                <p>Building and releasing continuously server-side code that works on any type of cloud instance does not have to be difficult. Join us as we explain how we use Docker, Docker Cloud integrated with Github to release and test server code continuously.</p>
+                                                            </div>  
+                                                    <div class="mr-0 pr-0 float-right">
+                                                        <!-- We don't use it yet -->
+                                                        <!-- 
+                                                        <button class="read-more-button">learn more</button>
+                                                        -->
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-12 role-container">
+                                    <div class="container-fluid">
+                                        <!-- content for normal displays -->
+                                        <div class="row slides-content">
+                                            <div class="role-message col-5 ml-auto slides-text-content">
+                                                <span>DevOps</span>
+                                                <h3><span class="underline-page">Open</span>source Software Development on Github</h3>
+                                                <div class="role-text">
+                                                    <p>Do you sometimes find yourself at the terminal entering magic git commands while
+wondering how git actually works? Do you struggle to collaborate with other
+developers working on the same github project? In this workshop, we’ll be building
+an open source web application on github. You’ll learn some useful git commands,
+how to introduce your code into the application while working in parallel with other
+developers, how to review each other&#39;s code for bugs, and how automate testing
+your code for breaking changes.</p>
+                                                </div>  
+                                                <div class="mr-0 pr-0 float-right">
+                                                    <!-- We don't use it yet -->
+                                                    <!-- 
+                                                    <button class="read-more-button">learn more</button>
+                                                    -->
+                                                </div>
+                                            </div>
+                                            <div class="role-image col-4 mr-auto slides-image-content">
+                                                <img alt="open source software development" src="/workshop-assets/major-opensource-github.jpg" />
+                                            </div>
+                                        </div>
+                                        <!-- content for mobile displays -->
+                                        <div class="row slides-mobile-content" >
+                                                <div class="role-image col-4 mr-auto slides-image-content">
+                                                    <img alt="open source software development" src="/workshop-assets/sylvain-postgres.jpg" />
+                                                </div>
+                                                <div class="role-message col-5 ml-auto slides-text-content">
+                                                        <span>DevOps</span>
+                                                        <h3><span class="underline-page">Open</span>source Software Development on Github</h3>ing</h3>
+                                                        <div class="role-text">
+                                                            <p>Do you sometimes find yourself at the terminal entering magic git commands while
+wondering how git actually works? Do you struggle to collaborate with other
+developers working on the same github project? In this workshop, we’ll be building
+an open source web application on github. You’ll learn some useful git commands,
+how to introduce your code into the application while working in parallel with other
+developers, how to review each other&#39;s code for bugs, and how automate testing
+your code for breaking changes.</p>
+                                                        </div>  
+                                                    <div class="mr-0 pr-0 float-right">
+                                                        <!-- We don't use it yet -->
+                                                        <!-- 
+                                                        <button class="read-more-button">learn more</button>
+                                                        -->
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-12 role-container">
+                                    <div class="container-fluid">
+                                        <!-- content for normal displays -->
+                                        <div class="row slides-content">
+                                            <div class="role-message col-5 ml-auto slides-text-content">
+                                                <span>DevOps</span>
+                                                <h3><span class="underline-page">Intro</span>duction to Postgres</h3>
+                                                <div class="role-text">
+                                                    <p>This workshop is ideal for developers who interact with databases and build schema in their daily work and who want to know more about PostgreSQL. Those developers used to other RDBMS (like MySQL) should be particularly interested.</p>
+                                                </div>  
+                                                <div class="mr-0 pr-0 float-right">
+                                                    <!-- We don't use it yet -->
+                                                    <!-- 
+                                                    <button class="read-more-button">learn more</button>
+                                                    -->
+                                                </div>
+                                            </div>
+                                            <div class="role-image col-4 mr-auto slides-image-content">
+                                                <img alt="intro to postgres" src="/workshop-assets/sylvain-postgres.jpg" />
+                                            </div>
+                                        </div>
+                                        <!-- content for mobile displays -->
+                                        <div class="row slides-mobile-content" >
+                                                <div class="role-image col-4 mr-auto slides-image-content">
+                                                    <img alt="intro to postgres" src="/workshop-assets/sylvain-postgres.jpg" />
+                                                </div>
+                                                <div class="role-message col-5 ml-auto slides-text-content">
+                                                        <span>DevOps</span>
+                                                        <h3><span class="underline-page">Intro</span>duction to Postgres</h3>ing</h3>
+                                                        <div class="role-text">
+                                                            <p>This workshop is ideal for developers who interact with databases and build schema in their daily work and who want to know more about PostgreSQL. Those developers used to other RDBMS (like MySQL) should be particularly interested.</p>
+                                                        </div>  
+                                                    <div class="mr-0 pr-0 float-right">
+                                                        <!-- We don't use it yet -->
+                                                        <!-- 
+                                                        <button class="read-more-button">learn more</button>
+                                                        -->
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+            </div>
+            <!-- end slideshow -->
+            <div class="col-12">
+                <h4 class="text-center"><b>Raise the standard of engineering excellence:</b></h4>
+                <p class="text-center">
+                    <a class="typeform-share button" rel="subresource dns-prefetch preconnect" href="https://majorasappiii.typeform.com/to/pFThlj" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#FF5658;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-hide-headers=true data-hide-footer=true data-submit-close-delay="0">Go Train! </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                </p>
+            </div>
+            <div class="col-4 mx-auto">
+                <hr class="colearning-hr mx-auto">
+            </div>
+        </div>
+    </div>
