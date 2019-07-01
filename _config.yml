@@ -11,3 +11,5 @@ navigation:
   url: /about/
 - text: Blog
   url: /blog/
+
+future: true
