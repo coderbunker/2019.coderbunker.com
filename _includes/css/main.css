@@ -226,7 +226,7 @@
     /* what people are saying section ended here */
     /* franchises section*/
     #logo-footer-content {
-        /* col-12 */
+        /* col-2 */
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
@@ -238,6 +238,23 @@
     }
     #logo-footer-content span {
         font-size:6vw;
+    }
+    #logo-footer-content a{
+        display:inline-block;
+        text-decoration:none;
+        background-color:#FF5658;
+        color:white;cursor:pointer;
+        font-family:Helvetica,Arial,sans-serif;
+        font-size:20px;
+        line-height:50px;
+        text-align:center;
+        margin:0;
+        margin-bottom: 20px;
+        height:50px;
+        padding:0px 33px;
+        border-radius:25px;
+        max-width:100%;
+        font-weight:bold;
     }
     #shanghai-franchise {
         /* col-12 */
@@ -501,6 +518,8 @@
         font-style: normal;
         margin-left:0.5rem;
     }
+    
+
     /* Section css */
     #section-info-container {
         position:relative;
@@ -508,6 +527,32 @@
     }
 }
 /* css for big displays */
+@media only screen and (min-width:768px) and (max-width: 1080px){
+    #shanghai-franchise p a,
+    #singapore-franchise p a,
+    #birmingham-franchise p a{
+        font-size: 1.7vw;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1236px){
+    #logo-footer-content a{
+        display:inline-block;
+        text-decoration:none;
+        background-color:#FF5658;
+        color:white;cursor:pointer;
+        font-family:Helvetica,Arial,sans-serif;
+        font-size:1.5vw;
+        line-height:50px;
+        text-align:center;
+        margin:0;
+        margin-bottom: 20px;
+        height:50px;
+        padding:0px 10px;
+        border-radius:25px;
+        max-width:100%;
+        font-weight:bold;
+    }
+}
 @media only screen and (min-width: 1500px) and (max-width:2100px) {
 
     #learner-bubble span {
@@ -522,7 +567,23 @@
         left:10%;
         font-size:0.7vw !important;
     }
-
+    #logo-footer-content a{
+        display:inline-block;
+        text-decoration:none;
+        background-color:#FF5658;
+        color:white;cursor:pointer;
+        font-family:Helvetica,Arial,sans-serif;
+        font-size:20px;
+        line-height:50px;
+        text-align:center;
+        margin:0;
+        margin-bottom: 20px;
+        height:50px;
+        padding:0px 33px;
+        border-radius:25px;
+        max-width:100%;
+        font-weight:bold;
+    }
 }
 @media only screen and (max-width: 570px) {
     #top-menu {
@@ -1209,6 +1270,7 @@ h3 span.underline-page {
     margin-bottom:5%;
     color:white !important; 
 }
+
 .blog-post .blog-post-title a{
     font-family: montserrat, sans-serif;
     font-weight: 400;
@@ -1217,3 +1279,36 @@ h3 span.underline-page {
     
 }
 /* projects section */
+
+/* workshops section */
+
+.post-title {
+    font-size: 2rem;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+
+.each-post {
+    padding-left: 30%;
+}
+
+.post-category {
+    font-size: 1.2em;
+    text-align: left;
+    font-family: montserrat, sans-serif;
+
+}
+.post-contents p{
+    padding-left: 40px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.post-contents img{
+    align-self: center;
+    max-width: 750px;
+    max-height: 1334px;
+}
