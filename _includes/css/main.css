@@ -17,27 +17,27 @@
     text-align: center !important;
 
 }
-.project-content-text ul li{
+.project-content-text ul li {
     word-break: break-all !important;
 }
 .project-image {
-    display:none !important;
+    display: none !important;
 }
 .project-content-image .project-image-mobile {
-    width:70%;
-    height:auto;
-    display:block !important;
+    width: 70%;
+    height: auto;
+    display: block !important;
 }
 
     /* blog page */
     .blog-post {
-        margin-bottom:15% !important;
-        color:white !important; 
+        margin-bottom: 15% !important;
+        color: white !important; 
     }
     /* bridging the gap */
     .colearning-color-content {
-        margin-top:-14% !important;
-        font-size:4vw;
+        margin-top: -14% !important;
+        font-size: 4vw;
         /* col-8 */
         -ms-flex: 0 0 100% !important;
         flex: 0 0 100% !important;
@@ -49,18 +49,18 @@
         max-width: 100% !important;
     }
     .colearning-text-content p {
-        margin-top:10%;
+        margin-top: 10%;
     }
     .header-text {
         font-size: 4vw;
     }
     /* services page */
     .swiper-slide {
-        height:100%;
+        height: 100%;
     }
     /* Header section */
     .navbar-brand {
-        display:none;
+        display: none;
     }
     .navCollapseAfter {
         /* col-12 */
@@ -72,17 +72,17 @@
         margin-left: auto !important;
         text-align: center !important;
         font-family: montserrat, sans-serif;
-        font-size:2vw!important;
+        font-size: 2vw!important;
         font-weight: 400;
         font-style: normal;
     }
     #coderBunkerSentence h1 {
         font-family: montserrat, sans-serif;
         font-weight: 700;
-        font-style:normal;
-        margin-bottom:2rem;
-        line-height:8vw !important;
-        font-size:7vw;
+        font-style: normal;
+        margin-bottom: 2rem;
+        line-height: 8vw !important;
+        font-size: 7vw;
     }
     /* we propose section */
     /* Start community propose container */
@@ -105,7 +105,7 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-    #workplace-propose-container div{
+    #workplace-propose-container div {
         /* div and text centered */
         margin-right: auto !important;
         margin-left: auto !important;
@@ -119,7 +119,7 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-    #makeliving-propose-container div{
+    #makeliving-propose-container div {
         /* div and text centered */
         margin-right: auto !important;
         margin-left: auto !important;
@@ -160,10 +160,10 @@
     }
     /* services page  */
     .slides-content {
-        display:none;
+        display: none;
     }
     .slides-mobile-content {
-        display:block !important;
+        display: block !important;
     }
     .slides-image-content {
         /* col-12 */
@@ -179,10 +179,10 @@
     }
     /* end services page */
     #freelancer-content {
-        display:none
+        display: none
     }
     #freelancer-mobile-content {
-        display:block !important;
+        display: block !important;
     }
     /* Start entrepreneur-content section */
     #entrepreneur-image-content {
@@ -237,59 +237,28 @@
 
     }
     #logo-footer-content span {
-        font-size:6vw;
+        font-size: 6vw;
     }
-    #logo-footer-content a{
-        display:inline-block;
-        text-decoration:none;
-        background-color:#FF5658;
-        color:white;cursor:pointer;
-        font-family:Helvetica,Arial,sans-serif;
-        font-size:20px;
-        line-height:50px;
-        text-align:center;
-        margin:0;
+    #logo-footer-content a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #FF5658;
+        color: white;
+        cursor: pointer;
+        font-family: Helvetica,Arial,sans-serif;
+        font-size: 20px;
+        line-height: 50px;
+        text-align: center;
+        margin: 0;
         margin-bottom: 20px;
-        height:50px;
-        padding:0px 33px;
-        border-radius:25px;
-        max-width:100%;
-        font-weight:bold;
-    }
-    #shanghai-franchise {
-        /* col-12 */
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
+        height: 50px;
+        padding: 0px 33px;
+        border-radius: 25px;
         max-width: 100%;
-        /* div and text centered */
-        margin-right: auto !important;
-        margin-left: auto !important;
-        text-align: center !important;
-
+        font-weight: bold;
     }
-    #shanghai-franchise-title {
-        /* div and text centered */
-        margin-right: auto !important;
-        margin-left: auto !important;
-        text-align: center !important;
-    }
-    #singapore-franchise {
-        /* col-12 */
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-        /* div and text centered */
-        margin-right: auto !important;
-        margin-left: auto !important;
-        text-align: center !important;
-
-    }
-    #singapore-franchise-title {
-        /* div and text centered */
-        margin-right: auto !important;
-        margin-left: auto !important;
-        text-align: center !important;
-    }
+    #shanghai-franchise,
+    #singapore-franchise,
     #birmingham-franchise {
         /* col-12 */
         -ms-flex: 0 0 100%;
@@ -299,7 +268,10 @@
         margin-right: auto !important;
         margin-left: auto !important;
         text-align: center !important;
+
     }
+    #shanghai-franchise-title,
+    #singapore-franchise-title,
     #birmingham-franchise-title {
         /* div and text centered */
         margin-right: auto !important;
@@ -319,7 +291,7 @@
         text-align: center !important;
     }
     #footer-social-icons p {
-        font-size:3vw !important;
+        font-size: 3vw !important;
     }
     #footer-social-icons-container {
         -ms-flex-flow: row nowrap;
@@ -340,7 +312,7 @@
     /* footer social icons section ended here */
     /* copyright section */
     #copyright p {
-        font-size:3.5vw;
+        font-size: 3.5vw;
         /* div and text centered */
         margin-right: auto !important;
         margin-left: auto !important;
@@ -349,7 +321,7 @@
     #go-to-top {
         width: 8%;
         height: auto;
-        margin-bottom:3vh;
+        margin-bottom: 3vh;
     }
     /* copyright section ended here */
 
@@ -361,25 +333,25 @@
         max-width: 100%;
     }
     .section-image img {
-        width:100%;
-        height:auto;
+        width: 100%;
+        height: auto;
     }
     #section-info-container {
-        position:relative;
-        min-height:15% !important;
+        position: relative;
+        min-height: 15% !important;
     }
     /* section page */
 
-    .section-title h4{
-        margin-top:10rem;
-        margin-bottom:5rem;
+    .section-title h4 {
+        margin-top: 10rem;
+        margin-bottom: 5rem;
         font-family: montserrat, sans-serif;
         font-weight: 300;
         text-align: center;
     }
-    .section-title h2{
-        margin-top:10rem;
-        margin-bottom:5rem;
+    .section-title h2 {
+        margin-top: 10rem;
+        margin-bottom: 5rem;
         font-family: montserrat, sans-serif;
         font-weight: 300;
         text-align: center;
@@ -387,86 +359,86 @@
 
 
     .section-header-title {
-        margin-top:3rem;
+        margin-top: 3rem;
         font-family: montserrat, sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-size:8vw;
+        font-size: 8vw;
         /* col-12 */
         -ms-flex: 0 0 100% !important;
         flex: 0 0 100% !important;
         max-width: 100% !important;
     }
     .section-header-wave {
-        background-image:url('../images/section-bottom-title.jpg');
-        background-color:#5c83f3;
-        background-repeat:no-repeat;
-        background-size:contain;
-        background-position:top;
+        background-image: url('../images/section-bottom-title.jpg');
+        background-color: #5c83f3;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
         min-height: 2rem;
     }
     #section-info-container {
-        position:relative;
-        min-height:50%;
+        position: relative;
+        min-height: 50%;
     }
     .section-info-content {
-        background-color:#f3f3f3;
+        background-color: #f3f3f3;
         border-radius: 7px;
         box-shadow: 0px 7px 10px 1px #ededee;
-        position:absolute;
+        position: absolute;
         font-family: montserrat, sans-serif;
         font-weight: 400;
-        font-style:normal;
+        font-style: normal;
     }
     .section-info-content h4 {
         font-weight: 600;
-        font-size:1.2vw;
-        margin-top:10%;
-        margin-bottom:10%;
+        font-size: 1.2vw;
+        margin-top: 10%;
+        margin-bottom: 10%;
 
     }
-    #section-content h3, #section-content p, #section-content ul li{
+    #section-content h3, #section-content p, #section-content ul li {
         font-family: montserrat, sans-serif !important;
-        font-style:normal;
+        font-style: normal;
     }
     #section-content h3 {
-        font-size:1.5vw;
-        font-weight:600;
+        font-size: 1.5vw;
+        font-weight: 600;
     }
     #section-content p {
-        font-size:1vw;
+        font-size: 1vw;
     }
     
     .section-info-content p {
-        font-size:0.9vw;
-        margin-bottom:10%;
+        font-size: 0.9vw;
+        margin-bottom: 10%;
     }
-    .section-info-content img{
-        padding-top:20%;
+    .section-info-content img {
+        padding-top: 20%;
     }
     #section-info-content-right {
-        position:absolute;
-        right:0%;
-        top:-20%;
+        position: absolute;
+        right: 0%;
+        top: -20%;
 
     }
     #section-info-content-left {
-        position:absolute;
-        top:-20%;
+        position: absolute;
+        top: -20%;
     }
     .section-content-12 {
-        margin-top:10%;
+        margin-top: 10%;
         font-family: montserrat, sans-serif;
         font-style: normal;
     }
-    .section-content-12 h2{
-        font-weight:600;
-        font-size:2vw;
+    .section-content-12 h2 {
+        font-weight: 600;
+        font-size: 2vw;
     }
     .section-content-12 p {
-        font-size:1vw;
+        font-size: 1vw;
     }
-    .section-image img{
+    .section-image img {
         width: 100%;
         height: auto;
     }
@@ -476,13 +448,13 @@
 @media only screen and (max-width: 1080px) {
     /* header */
     #top-menu {
-        font-size:1.3vw;
+        font-size: 1.3vw;
     }
     .navbar-brand {
-        font-size:1.5vw;
+        font-size: 1.5vw;
     }
     #bubbles-container {
-        display:none
+        display: none
     }
     #coderBunkerSentence {
         -ms-flex: 0 0 100%;
@@ -498,10 +470,10 @@
     max-width: 33.333333%;
     }
     .proposal-title {
-        font-size:1.4rem;
+        font-size: 1.4rem;
     }
     .people-content img {
-        width:70% !important;
+        width: 70% !important;
     }
     .fa-facebook-f, .fa-linkedin, .fa-github, .fa-weixin, .fa-medium, .fa-meetup {
         font-size: 2vw !important;
@@ -516,73 +488,75 @@
         font-family: montserrat, sans-serif;
         font-weight: 400;
         font-style: normal;
-        margin-left:0.5rem;
+        margin-left: 0.5rem;
     }
     
 
     /* Section css */
     #section-info-container {
-        position:relative;
-        min-height:35%;
+        position: relative;
+        min-height: 35%;
     }
 }
 /* css for big displays */
-@media only screen and (min-width:768px) and (max-width: 1080px){
+@media only screen and (min-width:768px) and (max-width: 1080px) {
     #shanghai-franchise p a,
     #singapore-franchise p a,
-    #birmingham-franchise p a{
+    #birmingham-franchise p a {
         font-size: 1.7vw;
     }
 }
-@media only screen and (min-width:768px) and (max-width: 1236px){
-    #logo-footer-content a{
-        display:inline-block;
-        text-decoration:none;
-        background-color:#FF5658;
-        color:white;cursor:pointer;
-        font-family:Helvetica,Arial,sans-serif;
-        font-size:1.5vw;
-        line-height:50px;
-        text-align:center;
-        margin:0;
+@media only screen and (min-width:768px) and (max-width: 1236px) {
+    #logo-footer-content a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #FF5658;
+        color: white;
+        cursor: pointer;
+        font-family: Helvetica,Arial,sans-serif;
+        font-size: 1.5vw;
+        line-height: 50px;
+        text-align: center;
+        margin: 0;
         margin-bottom: 20px;
-        height:50px;
-        padding:0px 10px;
-        border-radius:25px;
-        max-width:100%;
-        font-weight:bold;
+        height: 50px;
+        padding: 0px 10px;
+        border-radius: 25px;
+        max-width: 100%;
+        font-weight: bold;
     }
 }
 @media only screen and (min-width: 1500px) and (max-width:2100px) {
 
     #learner-bubble span {
-        position:absolute;
-        top:39%;
-        left:12%;
-        font-size:0.7vw !important;
+        position: absolute;
+        top: 39%;
+        left: 12%;
+        font-size: 0.7vw !important;
     }
     #freelancer-bubble span {
-        position:absolute;
-        top:41%;
-        left:10%;
-        font-size:0.7vw !important;
+        position: absolute;
+        top: 41%;
+        left: 10%;
+        font-size: 0.7vw !important;
     }
-    #logo-footer-content a{
-        display:inline-block;
-        text-decoration:none;
-        background-color:#FF5658;
-        color:white;cursor:pointer;
-        font-family:Helvetica,Arial,sans-serif;
-        font-size:20px;
-        line-height:50px;
-        text-align:center;
-        margin:0;
+    #logo-footer-content a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #FF5658;
+        color: white;
+        cursor: pointer;
+        font-family: Helvetica,Arial,sans-serif;
+        font-size: 20px;
+        line-height: 50px;
+        text-align: center;
+        margin: 0;
         margin-bottom: 20px;
-        height:50px;
-        padding:0px 33px;
-        border-radius:25px;
-        max-width:100%;
-        font-weight:bold;
+        height: 50px;
+        padding: 0px 33px;
+        border-radius: 25px;
+        max-width: 100%;
+        font-weight: bold;
     }
 }
 @media only screen and (max-width: 570px) {
@@ -601,7 +575,7 @@
         margin-left: auto !important;
         text-align: center !important;
         font-family: montserrat, sans-serif;
-        font-size:4vw!important;
+        font-size: 4vw!important;
         font-weight: 400;
         font-style: normal;
     }
@@ -627,14 +601,14 @@ hr {
     padding: 0; 
 }
 h1 {
-    font-size:3rem;
+    font-size: 3rem;
 }
 h4 {
-    font-size:1.2rem;
+    font-size: 1.2rem;
 }
 /* Header */
 .navbar-brand {
-    color:white;
+    color: white;
     font-family: montserrat, sans-serif;  
     font-weight: 600;    
     font-style: normal;
@@ -643,32 +617,32 @@ h4 {
     
 }
 .navbar-brand:hover {
-    color:white;
+    color: white;
 
 }
 .nav-item a {
-    color:white !important;
+    color: white !important;
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 .social-network-icons li {
-    padding-left:1rem;
+    padding-left: 1rem;
 }
 
 header {
-    color:white;
+    color: white;
 }
 #header-content {
-    margin-top:9rem;
+    margin-top: 9rem;
 }
 #section-header-container {
-    background-color:#003557 !important;
-    color:white;
-    background-image:url('../images/bg-section.jpg');
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:bottom;
+    background-color: #003557 !important;
+    color: white;
+    background-image: url('../images/bg-section.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     min-height: 5rem;
 
 }
@@ -677,45 +651,45 @@ header {
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left:0.5rem;
+    margin-left: 0.5rem;
 }
 #header-container {
-    background-color:#003557 !important;
-    color:white;
+    background-color: #003557 !important;
+    color: white;
     border-bottom-left-radius: 80% 10%;
     border-bottom-right-radius: 80% 10%;
-    background-image:url('../images/bg.png');
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:bottom;
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     min-height: 60rem;
   }
 }
 #coderBunkerSentence {
-    background-color:#003557 !important;
+    background-color: #003557 !important;
 }
 #coderBunkerSentence h1 {
     font-family: montserrat, sans-serif;
     font-weight: 700;
-    font-style:normal;
-    margin-bottom:2rem;
-    line-height:4rem;
+    font-style: normal;
+    margin-bottom: 2rem;
+    line-height: 4rem;
 }
 #coderBunkerSentence p {
     font-family: montserrat, sans-serif;
     font-weight: 400;
-    font-style:normal;
-    margin-bottom:2rem;
+    font-style: normal;
+    margin-bottom: 2rem;
 
 }
 #coderBunkerSentence button {
-    background-color:#e74c3c;
-    border:none;
-    padding-top:.5rem;
-    padding-bottom:.5rem;
-    padding-left:2rem;
-    padding-right:2rem;
-    color:white !important;
+    background-color: #e74c3c;
+    border: none;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white !important;
     font-family: montserrat, sans-serif !important;
     font-weight: 600;
     border-radius: 7px;
@@ -728,28 +702,28 @@ header {
     font-weight: 700;
 
 }
-p.proposal-text{
-    margin-top:0.5rem;
+p.proposal-text {
+    margin-top: 0.5rem;
     font-family: lato, sans-serif;
-    font-weight:400;
-    font-style:normal;
+    font-weight: 400;
+    font-style: normal;
 }
-.section-title h4{
-    margin-top:10rem;
-    margin-bottom:5rem;
+.section-title h4 {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
     font-family: montserrat, sans-serif;
     font-weight: 300;
     text-align: center;
 }
-.section-title h2{
-    margin-top:10rem;
-    margin-bottom:5rem;
+.section-title h2 {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
     font-family: montserrat, sans-serif;
     font-weight: 300;
     text-align: center;
 }
 #coderBunkerSentence {
-    padding-bottom:15rem;
+    padding-bottom: 15rem;
 }
 .learn-more-left {
 
@@ -759,16 +733,16 @@ p.proposal-text{
     font-weight: 800;
     font-style: normal;
 }
-.role-message h4{
+.role-message h4 {
     font-family: montserrat, sans-serif;
     font-weight: 800;
     font-style: normal;
 }
-.role-message h3{
+.role-message h3 {
     font-family: montserrat, sans-serif;
     font-weight: 800;
     font-style: normal;
-    padding-bottom:0.7rem;
+    padding-bottom: 0.7rem;
 }
 .role-message span {
     font-family: montserrat, sans-serif;
@@ -780,21 +754,21 @@ p.proposal-text{
     font-weight: 800;
     font-style: normal;
     border-bottom: 2px solid #003557;
-    padding-bottom:3px;
+    padding-bottom: 3px;
 }
 .underline {
     font-family: montserrat, sans-serif;
     font-weight: 800;
     font-style: normal;
     border-bottom: 2px solid #003557;
-    padding-bottom:3px;
+    padding-bottom: 3px;
 }
 .role-message h3 span.underline {
     font-family: montserrat, sans-serif;
     font-weight: 800;
     font-style: normal;
     border-bottom: 2px solid #003557;
-    padding-bottom:3px;
+    padding-bottom: 3px;
 }
 .role-text {
     font-family: montserrat, sans-serif;
@@ -807,72 +781,72 @@ p.proposal-text{
     border-radius: 2rem;
     font-family: montserrat, sans-serif;
     font-weight: 600;
-    font-size:14px;
-    padding:0.5rem;
-    padding-left:0.8rem;
-    padding-right:0.8rem;
+    font-size: 14px;
+    padding: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
     border-width: thin;
-    border-color:black;
+    border-color: black;
     font-style: normal;
-    cursor:pointer;
+    cursor: pointer;
 }
 .role-image img {
-    width:100%;
-    border:none;
+    width: 100%;
+    border: none;
 }
 .role-message p {
     font-family: montserrat, sans-serif;
     font-weight: 400;
-    font-style:normal;
+    font-style: normal;
     
 }
-.role-container{
-    margin-bottom:12rem;
+.role-container {
+    margin-bottom: 12rem;
 }
 #freelancer-mobile-content {
-    display:none;
+    display: none;
 }
 /* services page */
 .slides-content {
 }
 .slides-mobile-content {
-    display:none;
+    display: none;
 }
 #footer-container {
-    margin-top:15rem;
+    margin-top: 15rem;
 }
 #footer-social-icons {
     color: #b5b5c8 !important;
-    font-size:1.5vw;
+    font-size: 1.5vw;
 }
-#footer-social-icons nav ul li a{
+#footer-social-icons nav ul li a {
     color: #b5b5c8 !important;
-    font-size:1.5vw;
+    font-size: 1.5vw;
 }   
 #logo-footer {
-    color:#e74c3c;
+    color: #e74c3c;
     font-family: montserrat, sans-serif;
     font-weight: 800;
-    font-style:normal;
-    font-size:1.5vw;
+    font-style: normal;
+    font-size: 1.5vw;
 }
 #copyright {
     font-family: montserrat, sans-serif;
     font-weight: 600;
-    font-size:1vw;
-    font-style:normal;
+    font-size: 1vw;
+    font-style: normal;
     color: #565b87;
-    margin-top:2rem;
-    margin-right:1rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
 }
 #copyright img {
-    margin-top:2rem;
-    margin-right:1rem;
-    width:3%;
-    margin-bottom:2rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    width: 3%;
+    margin-bottom: 2rem;
 }
 #footer-franchise-container {
-    color:#b5b5c8;
+    color: #b5b5c8;
     font-family: montserrat, sans-serif;  
     font-weight: 700;    
     font-style: normal;
@@ -899,15 +873,15 @@ p.proposal-text{
     width:40%;
 }
 .people-name {
-    margin-top:0.5rem;
-    margin-bottom:2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
     font-family: montserrat, sans-serif;  
     font-weight: 300;    
     font-style: normal;
 
 }
 .people-quote {
-    text-align:center;
+    text-align: center;
     font-family: montserrat, sans-serif;  
     font-weight: 600;    
     font-style: italic;
@@ -916,7 +890,7 @@ p.proposal-text{
 }
 /* Icons */
 .fa-handshake, .fa-money-check-alt, .fa-smile-wink {
-    color:#e74c3c;
+    color: #e74c3c;
     font-size: 4vw;
 }
 .fa-facebook-f, .fa-github, .fa-linkedin, .fa-weixin, .fa-medium, .fa-meetup {
@@ -926,7 +900,7 @@ p.proposal-text{
     cursor: pointer
 }
 #header-social-icons {
-    margin-top:15px;
+    margin-top: 15px;
 }
 /* Styles needed for menu effect */
 li {
@@ -962,14 +936,14 @@ li {
 /* bubbles*/
 /* general */
 #bubbles-container {
-    position:relative;
+    position: relative;
 }
 .bubble {
-    position:absolute;
+    position: absolute;
     font-family: montserrat, sans-serif;  
     font-weight: 600;    
     font-style: normal;
-    text-transform:uppercase;
+    text-transform: uppercase;
     cursor: pointer; 
 }
 /* entrepreneur bubble */
@@ -977,98 +951,98 @@ li {
     width: 9rem;
     height: 9rem;
     color: #003557;
-    background-color:#fcec64;
-    top:-6%;
-    left:5%;
+    background-color: #fcec64;
+    top: -6%;
+    left: 5%;
 
 }
 #entrepreneur-bubble span {
-    position:absolute;
-    top:41%;
-    left:3%;
+    position: absolute;
+    top: 41%;
+    left: 3%;
 }
 /* freelancer bubble */
 #freelancer-bubble {
     width: 7rem;
     height: 7rem;
     color: #003557;
-    background-color:#fff;
-    right:0%;
-    top:-8%;
+    background-color: #fff;
+    right: 0%;
+    top: -8%;
 
 }
 #freelancer-bubble span {
-    position:absolute;
-    top:41%;
-    left:10%;
-    font-size:0.9vw;
+    position: absolute;
+    top: 41%;
+    left: 10%;
+    font-size: 0.9vw;
 }
 /* community bubble */
 #community-bubble {
     width: 8rem;
     height: 8rem;
     color: #FFF;
-    background-color:#e74c3c;
-    bottom:50%;
-    left:25%;
+    background-color: #e74c3c;
+    bottom: 50%;
+    left: 25%;
 
 }
 #community-bubble span {
-    position:absolute;
-    top:41%;
-    left:9%;
+    position: absolute;
+    top: 41%;
+    left: 9%;
 }
 /* investor bubble */
 #investor-bubble {
     width: 6rem;
     height: 6rem;
     color: #FFF;
-    background-color:#f7941d;
-    bottom:60%;
-    left:-20%;
+    background-color: #f7941d;
+    bottom: 60%;
+    left: -20%;
 
 }
 #investor-bubble span {
-    position:absolute;
-    top:37%;
-    left:6%;
+    position: absolute;
+    top: 37%;
+    left: 6%;
 }
 /* learner bubble */
 #learner-bubble {
     width: 5rem;
     height: 5rem;
     color: #FFF;
-    background-color:#4466c9;
-    bottom:60%;
-    right:-2%;
+    background-color: #4466c9;
+    bottom: 60%;
+    right: -2%;
 
 }
 #learner-bubble span {
-    position:absolute;
-    top:39%;
-    left:12%;
-    font-size:0.9vw;
+    position: absolute;
+    top: 39%;
+    left: 12%;
+    font-size: 0.9vw;
 }
 /* void bubble */
 #void-bubble {
     width: 2rem;
     height: 2rem;
     color: #FFF;
-    background-color:#4466c9;
-    bottom:85%;
-    right:36%;
-    font-size:0.8vw;
+    background-color: #4466c9;
+    bottom: 85%;
+    right: 36%;
+    font-size: 0.8vw;
 
 }
 #void-bubble span {
-    position:absolute;
-    top:39%;
-    left:12%;
+    position: absolute;
+    top: 39%;
+    left: 12%;
 }
 /* section css */
 
 .section-header-title {
-    margin-top:3rem;
+    margin-top: 3rem;
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -1081,75 +1055,75 @@ li {
     text-align: center !important;
 }
 .section-header-wave {
-    background-image:url('../images/section-bottom-title.jpg');
-    background-color:#5c83f3;
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:top;
+    background-image: url('../images/section-bottom-title.jpg');
+    background-color: #5c83f3;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
     min-height: 2rem;
 }
 #section-info-container {
-    position:relative;
-    min-height:50%;
+    position: relative;
+    min-height: 50%;
 }
 .section-info-content {
-    background-color:#f3f3f3;
+    background-color: #f3f3f3;
     border-radius: 7px;
     box-shadow: 0px 7px 10px 1px #ededee;
-    position:absolute;
+    position: absolute;
     font-family: montserrat, sans-serif;
     font-weight: 400;
-    font-style:normal;
+    font-style: normal;
 }
 .section-info-content h4 {
     font-weight: 600;
-    font-size:1.2vw;
-    margin-top:10%;
-    margin-bottom:10%;
+    font-size: 1.2vw;
+    margin-top: 10%;
+    margin-bottom: 10%;
 
 }
-#section-content h3, #section-content p, #section-content ul li{
+#section-content h3, #section-content p, #section-content ul li {
     font-family: montserrat, sans-serif !important;
-    font-style:normal;
+    font-style: normal;
 }
 #section-content h3 {
-    font-size:1.5vw;
-    font-weight:600;
+    font-size: 1.5vw;
+    font-weight: 600;
 }
 #section-content p {
-    font-size:1vw;
+    font-size: 1vw;
 }
   
 .section-info-content p {
-    font-size:0.9vw;
-    margin-bottom:10%;
+    font-size: 0.9vw;
+    margin-bottom: 10%;
 }
-.section-info-content img{
-    padding-top:20%;
+.section-info-content img {
+    padding-top: 20%;
 }
 #section-info-content-right {
-    position:absolute;
-    right:0%;
-    top:-20%;
+    position: absolute;
+    right: 0%;
+    top: -20%;
 
 }
 #section-info-content-left {
-    position:absolute;
-    top:-20%;
+    position: absolute;
+    top: -20%;
 }
 .section-content-12 {
-    margin-top:10%;
+    margin-top: 10%;
     font-family: montserrat, sans-serif;
     font-style: normal;
 }
-.section-content-12 h2{
-    font-weight:600;
-    font-size:2vw;
+.section-content-12 h2 {
+    font-weight: 600;
+    font-size: 2vw;
 }
 .section-content-12 p {
-    font-size:1vw;
+    font-size: 1vw;
 }
-.section-image img{
+.section-image img {
     width: 100%;
     height: auto;
 }
@@ -1159,17 +1133,17 @@ li {
     height: auto;
 }
 #footer-social-icons p {
-    margin-top:2%;
-    margin-bottom:0;
+    margin-top: 2%;
+    margin-bottom: 0;
     font-family: montserrat, sans-serif;
     font-weight: 400;
-    font-style:normal;
-    font-size:1vw;
+    font-style: normal;
+    font-size: 1vw;
 }
 
 /* page styles */
 .page-title {
-    margin-bottom:10%;
+    margin-bottom: 10%;
 }
 
   .swiper-slide {
@@ -1194,65 +1168,65 @@ h3 span.underline-page {
     font-weight: 800;
     font-style: normal;
     border-bottom: 2px solid #FFF;
-    padding-bottom:3px;
+    padding-bottom: 3px;
 }
 .position-text {
-    margin-top:0;
+    margin-top: 0;
 }
 /* project page */
 .project-image {
-    width:100%;
-    height:auto;
-    display:block;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 .project-image-mobile {
-    display:none !important;
+    display: none !important;
 }
 .project-content-text, .project-content.image {
-    margin-top:10%;
+    margin-top: 10%;
 }
 /* colearning page */
 
-#colearning-image-container{
-    background-image:url('http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/v1/775700/IMGP0921_qjuxou.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:top;
-    max-height:52vh;
+#colearning-image-container {
+    background-image: url('http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/v1/775700/IMGP0921_qjuxou.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    max-height: 52vh;
 }
 .colearning-text-content {
-    color:#FFF;
+    color: #FFF;
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size:1.5vw;
-    padding-top:7%;
+    font-size: 1.5vw;
+    padding-top: 7%;
 }
 .opacity-image-container {
     background: rgba(0, 0, 0, 0.5);
-    min-height:52vh;
+    min-height: 52vh;
 
 }
 .colearning-color-content {
     background: #ff5657;
-    color:#FFF;
+    color: #FFF;
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-top:15px;
-    margin-top:-3%;
+    padding-top: 15px;
+    margin-top: -3%;
 }
 .colearning-mentor-name {
-    margin-top:0.5rem;
-    margin-bottom:2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
     font-family: montserrat, sans-serif;  
     font-weight: 600;    
     font-style: normal;
-    color:#ff5657;
+    color: #ff5657;
 
 }
 #colearning-title {
-    color:#ff5657;
+    color: #ff5657;
 
 }
 .colearning-hr {
@@ -1267,11 +1241,11 @@ h3 span.underline-page {
 }
 /* blog page */
 .blog-post {
-    margin-bottom:5%;
-    color:white !important; 
+    margin-bottom: 5%;
+    color: white !important; 
 }
 
-.blog-post .blog-post-title a{
+.blog-post .blog-post-title a {
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -1301,13 +1275,13 @@ h3 span.underline-page {
     font-family: montserrat, sans-serif;
 
 }
-.post-contents p{
+.post-contents p {
     padding-left: 40px;
     font-weight: 600;
     font-size: 1.2rem;
 }
 
-.post-contents img{
+.post-contents img {
     align-self: center;
     max-width: 750px;
     max-height: 1334px;
