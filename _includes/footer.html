@@ -101,6 +101,7 @@
             }
         }
     </script>
+
     <script type="text/javascript">
         $(".fa-weixin").click(function(event) {
             var elementId = (this).id;
@@ -113,6 +114,7 @@
             // $("#footer-wechat-account").css({display: 'inline-block'})
         });
     </script>
+
   <script>
         var swiper = new Swiper('.swiper-container', {
             autoHeight: true, //enable auto height
@@ -136,4 +138,12 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-133578355-1');
+    </script>
+    <script>
+// ===== Scroll to Top ==== 
+$('#go-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
     </script>
